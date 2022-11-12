@@ -1,4 +1,4 @@
-@import 'variable';
+@import 'veriable';
 @import 'mixins';
 *,body,html{
   margin: 0;
@@ -11,11 +11,10 @@
 }
 .header{
   padding: 50px 60px 20px 60px;
-  background:linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%); 
+  background:url()
+  linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%); 
   .logo-menu{
-    width: 100px;
-    height: 100px;
-    background: #000;
+    
   }
     
    
