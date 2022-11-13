@@ -16,8 +16,28 @@
   url(../image/pattern.svg) no-repeat bottom center,
   linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
 }
-  .logo-menu{
+  .haeder-menu {
+    @include fb();
+  .menu-rekvszit{
+    @include fa();
+    .uk,.en{
+      margin: 5px;
+    }
+    .link-adres{
+      margin: 20px 13px;
+    }
+    // .krapka{
+    //   margin-bottom: 5px;
+    // }
+    // .tel{
+    //   margin: 1px;
+    // }
+    .krapka,.tochka2{
+      margin: 0px 10px 5px 10px; 
+    }
     
   }
+}
+  
     
    

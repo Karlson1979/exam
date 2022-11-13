@@ -12,4 +12,26 @@
   height: 800px;
   padding: 50px 60px 20px 60px;
   background: url(../image/Symbol.svg) no-repeat bottom center, url(../image/pattern.svg) no-repeat bottom center, linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
+}
+
+.haeder-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.haeder-menu .menu-rekvszit {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.haeder-menu .menu-rekvszit .uk, .haeder-menu .menu-rekvszit .en {
+  margin: 5px;
+}
+.haeder-menu .menu-rekvszit .link-adres {
+  margin: 20px 13px;
+}
+.haeder-menu .menu-rekvszit .krapka, .haeder-menu .menu-rekvszit .tochka2 {
+  margin: 0px 10px 5px 10px;
 }/*# sourceMappingURL=style.css.map */
