@@ -62,8 +62,8 @@
 }
 
 .pointer {
-  text-align: center;
-}
-.pointer .scroll {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }/*# sourceMappingURL=style.css.map */
