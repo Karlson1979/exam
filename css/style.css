@@ -29,9 +29,21 @@
 .haeder-menu .menu-rekvszit .uk, .haeder-menu .menu-rekvszit .en {
   margin: 5px;
 }
-.haeder-menu .menu-rekvszit .link-adres {
+.haeder-menu .menu-rekvszit .uk:hover {
+  background: #F0145A;
+  border-radius: 8px;
+}
+.haeder-menu .menu-rekvszit .ru:hover {
+  background: #F0145A;
+  border-radius: 8px;
+}
+.haeder-menu .menu-rekvszit .en:hover {
+  background: #F0145A;
+  border-radius: 8px;
+}
+.haeder-menu .link-adres {
   margin: 20px 13px;
 }
-.haeder-menu .menu-rekvszit .krapka, .haeder-menu .menu-rekvszit .tochka2 {
+.haeder-menu .krapka, .haeder-menu .tochka2 {
   margin: 0px 10px 5px 10px;
 }/*# sourceMappingURL=style.css.map */

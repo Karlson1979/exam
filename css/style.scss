@@ -22,22 +22,33 @@
     @include fa();
     .uk,.en{
       margin: 5px;
+  
     }
+.uk:hover{
+  background: #F0145A;
+border-radius: 8px;
+}
+.ru:hover{
+  background: #F0145A;
+  border-radius: 8px;
+
+}
+.en:hover{
+background: #F0145A;
+border-radius: 8px;
+
+}
+}
     .link-adres{
       margin: 20px 13px;
     }
-    // .krapka{
-    //   margin-bottom: 5px;
-    // }
-    // .tel{
-    //   margin: 1px;
-    // }
+    
     .krapka,.tochka2{
       margin: 0px 10px 5px 10px; 
     }
     
   }
-}
+
   
     
    
