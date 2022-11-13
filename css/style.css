@@ -28,6 +28,9 @@
 .haeder-menu .menu-rekvszit .uk, .haeder-menu .menu-rekvszit .en {
   margin: 5px;
 }
+.haeder-menu .menu-rekvszit .link-uk, .haeder-menu .menu-rekvszit .link-ru, .haeder-menu .menu-rekvszit .link-en, .haeder-menu .menu-rekvszit .tel {
+  color: #fff;
+}
 .haeder-menu .menu-rekvszit .uk:hover {
   background: #F0145A;
   border-radius: 8px;
@@ -42,7 +45,25 @@
 }
 .haeder-menu .link-adres {
   margin: 20px 13px;
+  color: #fff;
 }
 .haeder-menu .krapka, .haeder-menu .tochka2 {
   margin: 0px 10px 5px 10px;
+}
+
+.admin {
+  margin: 260px;
+  justify-content: center;
+}
+
+.admin-1 {
+  color: #fff;
+  text-align: center;
+}
+
+.pointer {
+  text-align: center;
+}
+.pointer .scroll {
+  display: block;
 }/*# sourceMappingURL=style.css.map */

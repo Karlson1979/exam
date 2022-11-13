@@ -24,6 +24,10 @@
       margin: 5px;
   
     }
+    .link-uk,.link-ru,.link-en,.tel{
+      color: $wf;
+    }
+
 .uk:hover{
   background: #F0145A;
 border-radius: 8px;
@@ -41,13 +45,30 @@ border-radius: 8px;
 }
     .link-adres{
       margin: 20px 13px;
+      color: $wf;
     }
     
     .krapka,.tochka2{
       margin: 0px 10px 5px 10px; 
     }
     
-  }
+    }
+    .admin{
+      margin: 260px;
+     justify-content: center;}
+      
+      .admin-1{
+       color: $wf; 
+       text-align: center;}
+       .pointer{
+        
+        text-align: center;
+        .scroll{
+          display: block;
+        }
+       }
+    
+  
 
   
     
