@@ -29,16 +29,16 @@
     }
 
 .uk:hover{
-  background: #F0145A;
+  background: $red;
 border-radius: 8px;
 }
 .ru:hover{
-  background: #F0145A;
+  background: $red;
   border-radius: 8px;
 
 }
 .en:hover{
-background: #F0145A;
+background: $red;
 border-radius: 8px;
 
 }
@@ -53,18 +53,37 @@ border-radius: 8px;
     }
     
     }
-    .admin{
-      margin: 260px;
-     justify-content: center;}
+    // .admin{
+      
+    //  justify-content: center;
+    // }
       
       .admin-1{
        color: $wf; 
-       text-align: center;}
+       text-align: center;
+       margin-top: 243px;}
        .pointer{
         @include fc();
+        margin-top: 290px;
         
         .scroll{
           
+        }
+       }
+       .section-2{
+        
+       }
+       .list{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: end;
+        // padding: 80px 173px 100px 60px;
+width: 530px;
+margin-top: 100px;
+        .item{
+          color: $wf;
+          margin: 10px;
         }
        }
     

@@ -51,14 +51,10 @@
   margin: 0px 10px 5px 10px;
 }
 
-.admin {
-  margin: 260px;
-  justify-content: center;
-}
-
 .admin-1 {
   color: #fff;
   text-align: center;
+  margin-top: 243px;
 }
 
 .pointer {
@@ -66,4 +62,17 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin-top: 290px;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: end;
+  width: 530px;
+  margin-top: 100px;
+}
+.list .item {
+  color: #fff;
+  margin: 10px;
 }/*# sourceMappingURL=style.css.map */
