@@ -70,8 +70,8 @@ border-radius: 8px;
           
         }
        }
-       .section-2{
-        
+       .experience{
+        @include fa();
        }
        .list{
         display: flex;
@@ -86,7 +86,19 @@ margin-top: 100px;
           margin: 10px;
         }
        }
-    
+    .line-1{
+      width: 4px;
+      height: 50px;
+      background: $red;
+    }
+    .line-2{
+      width: 4px;
+      height: 310px;
+      background: $wf;
+    }
+    .txt-1,.txt-2{
+      color: $wf;
+    }
   
 
   

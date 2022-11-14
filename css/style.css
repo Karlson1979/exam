@@ -64,6 +64,13 @@
   flex-wrap: wrap;
   margin-top: 290px;
 }
+.experience {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .list {
   display: flex;
   flex-direction: column;
@@ -75,4 +82,20 @@
 .list .item {
   color: #fff;
   margin: 10px;
+}
+
+.line-1 {
+  width: 4px;
+  height: 50px;
+  background: #F0145A;
+}
+
+.line-2 {
+  width: 4px;
+  height: 310px;
+  background: #fff;
+}
+
+.txt-1, .txt-2 {
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
