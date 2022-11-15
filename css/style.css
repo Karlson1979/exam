@@ -7,6 +7,7 @@
   list-style: none;
   border: none;
   outline: none;
+  font-family: "TTNorms", sans-serif;
 }
 
 .header {
@@ -56,8 +57,6 @@
   color: #fff;
   text-align: center;
   margin-top: 243px;
-  font-family: "TTNorms";
-  font-size: 50;
 }
 
 .pointer {
