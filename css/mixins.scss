@@ -22,9 +22,9 @@
     width: $width;
     height: $height;
 }
-@mixin font($size,$color,$weight,$family) {
+@mixin font($size,$color,$weight,$line-height) {
     font-size: $size;
     color: $color;
     font-weight: $weight;
-    font-family: $family;
+    line-height:$line-height;
 }

@@ -10,7 +10,7 @@
   list-style: none;
   border: none;
   outline: none;
-  font-family: 'TTNorms', sans-serif;
+  font-family: 'TT Norms', sans-serif;
 }
 .header{
   
@@ -23,14 +23,25 @@
     @include fb();
   .menu-rekvszit{
     @include fa();
+   
     .uk,.en{
       margin: 5px;
+      
+    }
+    
+    .link-uk,.link-ru,.link-en{
+      color: $wf;
+      @include font(14px,$wf,700px,19px);
   
     }
-    .link-uk,.link-ru,.link-en,.tel{
-      color: $wf;
-    }
+    .link-adres{
+      @include font(16px,$wf,400px,19px);
 
+
+    }
+.tel{
+  @include font(16px,$wf,700px,19px);
+}
 .uk:hover{
   background: $red;
 border-radius: 8px;
@@ -65,6 +76,9 @@ border-radius: 8px;
        color: $wf; 
        text-align: center;
        margin-top: 243px;
+  @include font(38px,$wf,800px,45px);
+  
+
       }
 
        .pointer{
@@ -83,6 +97,7 @@ border-radius: 8px;
         // padding: 80px 173px 100px 60px;
 width: 530px;
 margin-top: 100px;
+@include font(42px,$gray-txt,800px,50px);
 
         .item{
           color: $gray-txt;
@@ -99,8 +114,19 @@ margin-top: 100px;
       height: 310px;
       background: $wf;
     }
-    .txt-1,.txt-2{
-      color: $wf;
+    .txt{
+      margin-top: 151px;
+      .txt-2{
+        margin-top: 20px;
+      }
+    }
+    .p1txt{
+      
+      @include font(32px,$wf,800px,38px);
+    }
+    .p2txt{
+      @include font(21px,$wf,800px,30px);
+
     }
     .active{
       color: $bg-txt;

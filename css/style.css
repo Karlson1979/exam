@@ -7,7 +7,7 @@
   list-style: none;
   border: none;
   outline: none;
-  font-family: "TTNorms", sans-serif;
+  font-family: "TT Norms", sans-serif;
 }
 
 .header {
@@ -30,8 +30,24 @@
 .haeder-menu .menu-rekvszit .uk, .haeder-menu .menu-rekvszit .en {
   margin: 5px;
 }
-.haeder-menu .menu-rekvszit .link-uk, .haeder-menu .menu-rekvszit .link-ru, .haeder-menu .menu-rekvszit .link-en, .haeder-menu .menu-rekvszit .tel {
+.haeder-menu .menu-rekvszit .link-uk, .haeder-menu .menu-rekvszit .link-ru, .haeder-menu .menu-rekvszit .link-en {
   color: #fff;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 700px;
+  line-height: 19px;
+}
+.haeder-menu .menu-rekvszit .link-adres {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400px;
+  line-height: 19px;
+}
+.haeder-menu .menu-rekvszit .tel {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700px;
+  line-height: 19px;
 }
 .haeder-menu .menu-rekvszit .uk:hover {
   background: #F0145A;
@@ -57,6 +73,10 @@
   color: #fff;
   text-align: center;
   margin-top: 243px;
+  font-size: 38px;
+  color: #fff;
+  font-weight: 800px;
+  line-height: 45px;
 }
 
 .pointer {
@@ -81,6 +101,10 @@
   align-items: end;
   width: 530px;
   margin-top: 100px;
+  font-size: 42px;
+  color: #B3B3BA;
+  font-weight: 800px;
+  line-height: 50px;
 }
 .list .item {
   color: #B3B3BA;
@@ -99,14 +123,31 @@
   background: #fff;
 }
 
-.txt-1, .txt-2 {
+.txt {
+  margin-top: 151px;
+}
+.txt .txt-2 {
+  margin-top: 20px;
+}
+
+.p1txt {
+  font-size: 32px;
   color: #fff;
+  font-weight: 800px;
+  line-height: 38px;
+}
+
+.p2txt {
+  font-size: 21px;
+  color: #fff;
+  font-weight: 800px;
+  line-height: 30px;
 }
 
 .active {
-  color: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+  color: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%, text-fill-color transparent, background-clip text);
 }
 
 .item:hover {
-  color: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+  color: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%, text-fill-color transparent, background-clip text);
 }/*# sourceMappingURL=style.css.map */
