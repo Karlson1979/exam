@@ -1,5 +1,6 @@
 @import 'veriable';
 @import 'mixins';
+@import url(./font.css);
 *,body,html{
   margin: 0;
   padding: 0;
@@ -61,14 +62,13 @@ border-radius: 8px;
       .admin-1{
        color: $wf; 
        text-align: center;
-       margin-top: 243px;}
+       margin-top: 243px;
+      font-family: 'TTNorms';
+    font-size: 50;}
        .pointer{
         @include fc();
         margin-top: 290px;
         
-        .scroll{
-          
-        }
        }
        .experience{
         @include fa();
@@ -81,8 +81,9 @@ border-radius: 8px;
         // padding: 80px 173px 100px 60px;
 width: 530px;
 margin-top: 100px;
+
         .item{
-          color: $wf;
+          color: $gray-txt;
           margin: 10px;
         }
        }
@@ -99,6 +100,17 @@ margin-top: 100px;
     .txt-1,.txt-2{
       color: $wf;
     }
+    .active{
+      color: $bg-txt;
+
+
+
+      
+    }
+    .item:hover{
+      color: $bg-txt;
+    }
+   
   
 
   

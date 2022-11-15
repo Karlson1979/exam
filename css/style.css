@@ -1,3 +1,4 @@
+@import url(./font.css);
 *, body, html {
   margin: 0;
   padding: 0;
@@ -55,6 +56,8 @@
   color: #fff;
   text-align: center;
   margin-top: 243px;
+  font-family: "TTNorms";
+  font-size: 50;
 }
 
 .pointer {
@@ -64,6 +67,7 @@
   flex-wrap: wrap;
   margin-top: 290px;
 }
+
 .experience {
   display: flex;
   justify-content: space-around;
@@ -80,7 +84,7 @@
   margin-top: 100px;
 }
 .list .item {
-  color: #fff;
+  color: #B3B3BA;
   margin: 10px;
 }
 
@@ -98,4 +102,12 @@
 
 .txt-1, .txt-2 {
   color: #fff;
+}
+
+.active {
+  color: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+}
+
+.item:hover {
+  color: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
 }/*# sourceMappingURL=style.css.map */
