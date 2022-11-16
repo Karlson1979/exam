@@ -122,14 +122,14 @@ margin-top: 100px;
     }
     .p1txt{
       
-      @include font(32px,$wf,800px,38px);
+      @include font(32px,$wf,500px,38px);
     }
     .p2txt{
-      @include font(21px,$wf,800px,30px);
+      @include font(21px,$wf,500px,30px);
 
     }
     .link-1{
-      @include grtext(42px,800px,$bg-txt1);
+      @include grtext(42px,500px,$bg-txt1);
       
     }
     .item:hover{
@@ -151,7 +151,23 @@ margin-top: 100px;
     margin-left: 5.5px;
     margin-top: 1.5px;
    }
-  
+  .work{
+    margin-top: 5px;
+    @include grtext(32px,500px,$bg-txt2);}
+
+    .it{
+   margin-top: 68px;
+  width: 413px;
+// height: 130px;
+}
+   .it-txt {
+  @include font(24px,$blu,500px,28px);
+margin-top: 20px;
+   }
+   .it-txt-2 {
+  @include font(18px,$wf,500px,26px);
+margin-top: 15px;
+}
 
   
     

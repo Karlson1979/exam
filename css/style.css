@@ -132,21 +132,21 @@
 .p1txt {
   font-size: 32px;
   color: #fff;
-  font-weight: 800px;
+  font-weight: 500px;
   line-height: 38px;
 }
 
 .p2txt {
   font-size: 21px;
   color: #fff;
-  font-weight: 800px;
+  font-weight: 500px;
   line-height: 30px;
 }
 
 .link-1 {
   background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
   font-size: 42px;
-  font-weight: 800px;
+  font-weight: 500px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -179,4 +179,36 @@
 .teg {
   margin-left: 5.5px;
   margin-top: 1.5px;
+}
+
+.work {
+  margin-top: 5px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  font-size: 32px;
+  font-weight: 500px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.it {
+  margin-top: 68px;
+  width: 413px;
+}
+
+.it-txt {
+  font-size: 24px;
+  color: #24A3FF;
+  font-weight: 500px;
+  line-height: 28px;
+  margin-top: 20px;
+}
+
+.it-txt-2 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500px;
+  line-height: 26px;
+  margin-top: 15px;
 }/*# sourceMappingURL=style.css.map */
