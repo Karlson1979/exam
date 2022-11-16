@@ -99,7 +99,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-items: end;
-  width: 530px;
+  padding: 80px 173px 100px 60px;
   margin-top: 100px;
   font-size: 42px;
   color: #B3B3BA;
@@ -108,7 +108,6 @@
 }
 .list .item {
   color: #B3B3BA;
-  margin: 10px;
 }
 
 .line-1 {
@@ -162,4 +161,22 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
+}
+
+.servteg {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.services a {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500px;
+  line-height: 17px;
+  word-spacing: 6px;
+}
+
+.teg {
+  margin-left: 5.5px;
+  margin-top: 1.5px;
 }/*# sourceMappingURL=style.css.map */

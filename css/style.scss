@@ -94,14 +94,14 @@ border-radius: 8px;
         flex-direction: column;
         flex-wrap: wrap;
         align-items: end;
-        // padding: 80px 173px 100px 60px;
-width: 530px;
+        padding: 80px 173px 100px 60px;
+// width: 540px;
 margin-top: 100px;
 @include font(42px,$gray-txt,800px,50px);
 
         .item{
           color: $gray-txt;
-          margin: 10px;
+          // margin: 10px;
         }
        }
     .line-1{
@@ -135,8 +135,22 @@ margin-top: 100px;
     .item:hover{
     @include grtext(42px,800px,$bg-txt1);
   }
+  
+  .servteg{
+   display: flex;
+   justify-content: flex-start;
+  }
+  
+  
+  .services a{
+  @include font(14px,$wf,500px,17px);
+  word-spacing: 6px;
+  }
       
-   
+   .teg{
+    margin-left: 5.5px;
+    margin-top: 1.5px;
+   }
   
 
   
