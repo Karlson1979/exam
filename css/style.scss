@@ -128,13 +128,14 @@ margin-top: 100px;
       @include font(21px,$wf,800px,30px);
 
     }
-    .active{
-      color: $bg-txt;
+    .link-1{
+      @include grtext(42px,800px,$bg-txt1);
       
     }
     .item:hover{
-      color: $bg-txt;
-    }
+    @include grtext(42px,800px,$bg-txt1);
+  }
+      
    
   
 

@@ -144,10 +144,22 @@
   line-height: 30px;
 }
 
-.active {
-  color: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%, text-fill-color transparent, background-clip text);
+.link-1 {
+  background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+  font-size: 42px;
+  font-weight: 800px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
 .item:hover {
-  color: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%, text-fill-color transparent, background-clip text);
+  background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+  font-size: 42px;
+  font-weight: 800px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }/*# sourceMappingURL=style.css.map */
