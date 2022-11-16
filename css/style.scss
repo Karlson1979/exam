@@ -155,10 +155,17 @@ margin-top: 100px;
     margin-top: 5px;
     @include grtext(32px,500px,$bg-txt2);}
 
-    .it{
+    .reklama{
+      @include fa();
    margin-top: 68px;
-  width: 413px;
-// height: 130px;
+   align-items: stretch;
+
+    }
+
+    .it{
+  
+  width: 450px;
+
 }
    .it-txt {
   @include font(24px,$blu,500px,28px);
@@ -169,6 +176,15 @@ margin-top: 20px;
 margin-top: 15px;
 }
 
+.escort{
   
-    
+ width: 450px;
+
+}
+.relation{
+  
+ width: 450px;
+
+}
+
    
