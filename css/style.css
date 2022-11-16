@@ -227,4 +227,9 @@
 
 .relation {
   width: 450px;
+}
+
+.contract, .protection, .court {
+  width: 450px;
+  margin-top: 68px;
 }/*# sourceMappingURL=style.css.map */
