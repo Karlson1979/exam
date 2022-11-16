@@ -28,3 +28,13 @@
     font-weight: $weight;
     line-height:$line-height;
 }
+@mixin grtext($size,$weight,$bg){
+background:$bg;
+font-size: $size;
+font-weight: $weight;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+}
