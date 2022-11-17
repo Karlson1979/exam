@@ -2,7 +2,9 @@
 @import 'mixins';
 @import url(./font.css);
 
-*,body,html{
+*,
+body,
+html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -12,199 +14,234 @@
   outline: none;
   font-family: 'TT Norms', sans-serif;
 }
-.header{
-  
+
+.header {
+
   padding: 50px 60px 20px 60px;
-  background:url(../image/Symbol.svg) no-repeat bottom center,
-  url(../image/pattern.svg) no-repeat bottom center,
-  linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
+  background: url(../image/Symbol.svg) no-repeat bottom center,
+    url(../image/pattern.svg) no-repeat bottom center,
+    linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
 }
-  .haeder-menu {
-    @include fb();
-  .menu-rekvszit{
+
+.haeder-menu {
+  @include fb();
+
+  .menu-rekvszit {
     @include fa();
-   
-    .uk,.en{
+
+    .uk,
+    .en {
       margin: 5px;
-      
+
     }
-    
-    .link-uk,.link-ru,.link-en{
+
+    .link-uk,
+    .link-ru,
+    .link-en {
       color: $wf;
-      @include font(14px,$wf,700px,19px);
-  
-    }
-    .link-adres{
-      @include font(16px,$wf,400px,19px);
-
+      @include font(14px, $wf, 700px, 19px);
 
     }
-.tel{
-  @include font(16px,$wf,700px,19px);
-}
-.uk:hover{
-  background: $red;
-border-radius: 8px;
-}
-.ru:hover{
-  background: $red;
-  border-radius: 8px;
 
-}
-.en:hover{
-background: $red;
-border-radius: 8px;
+    .link-adres {
+      @include font(16px, $wf, 400px, 19px);
 
-}
-}
-    .link-adres{
-      margin: 20px 13px;
-      color: $wf;
+
     }
-    
-    .krapka,.tochka2{
-      margin: 0px 10px 5px 10px; 
+
+    .tel {
+      @include font(16px, $wf, 700px, 19px);
     }
-    
-    }
-    
-     .menu-burger{
-        display: none;
-        div{
-          
-        }
-      }
-  
-      .menu{
-        display: flex;
-        justify-content: end;
-        margin-top: -30px;}
-        .menu-item{
-          display: inline-block;
-          @include font(18px,$wf,500px,21px);
-          margin: 7.5px;
-        }
-      
-      .admin-1{
-       color: $wf; 
-       text-align: center;
-       margin-top: 243px;
-  @include font(38px,$wf,800px,45px);
-  
 
-      }
-
-       .pointer{
-        @include fc();
-        margin-top: 290px;
-        
-       }
-       .experience{
-        @include fa();
-       }
-       .list{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: end;
-        padding: 80px 173px 100px 60px;
-// width: 540px;
-margin-top: 100px;
-@include font(42px,$gray-txt,800px,50px);
-
-        .item{
-          color: $gray-txt;
-          // margin: 10px;
-        }
-       }
-    .line-1{
-      width: 4px;
-      height: 50px;
+    .uk:hover {
       background: $red;
+      border-radius: 8px;
     }
-    .line-2{
-      width: 4px;
-      height: 310px;
-      background: $wf;
-    }
-    .txt{
-      margin-top: 151px;
-      .txt-2{
-        margin-top: 20px;
-      }
-    }
-    .p1txt{
-      
-      @include font(32px,$wf,500px,38px);
-    }
-    .p2txt{
-      @include font(21px,$wf,500px,30px);
+
+    .ru:hover {
+      background: $red;
+      border-radius: 8px;
 
     }
-    .link-1{
-      @include grtext(42px,500px,$bg-txt1);
-      
+
+    .en:hover {
+      background: $red;
+      border-radius: 8px;
+
     }
-    .item:hover{
-    @include grtext(42px,800px,$bg-txt1);
   }
-  
-  .servteg{
-   display: flex;
-   justify-content: flex-start;
+
+  .link-adres {
+    margin: 20px 13px;
+    color: $wf;
   }
+
+  .krapka,
+  .tochka2 {
+    margin: 0px 10px 5px 10px;
+  }
+
+}
+
+.menu-burger {
+  display: none;
+
+  div {}
+}
+
+.menu {
+  display: flex;
+  justify-content: end;
+  margin-top: -30px;
+  a{
+    @include font(18px, $wf, 500px, 21px);
+  }
+}
+
+.menu-item {
+  display: inline-block;
   
-  
-  .services a{
-  @include font(14px,$wf,500px,17px);
+  margin: 7.5px;
+}
+
+.admin-1 {
+  color: $wf;
+  text-align: center;
+  margin-top: 243px;
+  @include font(38px, $wf, 800px, 45px);
+
+
+}
+
+.pointer {
+  @include fc();
+  margin-top: 290px;
+
+}
+
+.experience {
+  @include fa();
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: end;
+  padding: 80px 173px 100px 60px;
+  // width: 540px;
+  margin-top: 100px;
+  @include font(42px, $gray-txt, 800px, 50px);
+
+  .item {
+    color: $gray-txt;
+    // margin: 10px;
+  }
+}
+
+.line-1 {
+  width: 4px;
+  height: 50px;
+  background: $red;
+}
+
+.line-2 {
+  width: 4px;
+  height: 310px;
+  background: $wf;
+}
+
+.txt {
+  margin-top: 151px;
+
+  .txt-2 {
+    margin-top: 20px;
+  }
+}
+
+.p1txt {
+
+  @include font(32px, $wf, 500px, 38px);
+}
+
+.p2txt {
+  @include font(21px, $wf, 500px, 30px);
+
+}
+
+.link-1 {
+  @include grtext(42px, 500px, $bg-txt1);
+
+}
+
+.item:hover {
+  @include grtext(42px, 800px, $bg-txt1);
+}
+
+.servteg {
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+.services a {
+  @include font(14px, $wf, 500px, 17px);
   word-spacing: 6px;
-  }
-      
-   .teg{
-    margin-left: 5.5px;
-    margin-top: 1.5px;
-   }
-  .work{
-    margin-top: 5px;
-    @include grtext(32px,500px,$bg-txt2);}
+}
 
-    .reklama{
-      @include fa();
-   margin-top: 68px;
-   align-items: stretch;
+.teg {
+  margin-left: 5.5px;
+  margin-top: 1.5px;
+}
 
-    }
+.work {
+  margin-top: 5px;
+  @include grtext(32px, 500px, $bg-txt2);
+}
 
-    .it{
-  
+.reklama {
+  @include fa();
+  margin-top: 68px;
+  align-items: stretch;
+
+}
+
+.it {
+
   width: 450px;
 
 }
-   .it-txt {
-  @include font(24px,$blu,500px,28px);
-margin-top: 20px;
-   }
-   .it-txt-2 {
-  @include font(18px,$wf,500px,26px);
-margin-top: 15px;
+
+.it-txt {
+  @include font(24px, $blu, 500px, 28px);
+  margin-top: 20px;
 }
 
-.escort{
-  
- width: 450px;
-
-}
-.relation{
-  
- width: 450px;
-
+.it-txt-2 {
+  @include font(18px, $wf, 500px, 26px);
+  margin-top: 15px;
 }
 
-.contract, .protection,.court{
+.escort {
+
   width: 450px;
-margin-top: 68px;
-} 
-.card{
+
+}
+
+.relation {
+
+  width: 450px;
+
+}
+
+.contract,
+.protection,
+.court {
+  width: 450px;
+  margin-top: 68px;
+}
+
+.card {
   padding: 0px 60px 0px 10px;
-  
-}  
+
+}

@@ -1,5 +1,7 @@
 @import url(./font.css);
-*, body, html {
+*,
+body,
+html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -27,10 +29,13 @@
   align-items: center;
   flex-wrap: wrap;
 }
-.haeder-menu .menu-rekvszit .uk, .haeder-menu .menu-rekvszit .en {
+.haeder-menu .menu-rekvszit .uk,
+.haeder-menu .menu-rekvszit .en {
   margin: 5px;
 }
-.haeder-menu .menu-rekvszit .link-uk, .haeder-menu .menu-rekvszit .link-ru, .haeder-menu .menu-rekvszit .link-en {
+.haeder-menu .menu-rekvszit .link-uk,
+.haeder-menu .menu-rekvszit .link-ru,
+.haeder-menu .menu-rekvszit .link-en {
   color: #fff;
   font-size: 14px;
   color: #fff;
@@ -65,7 +70,8 @@
   margin: 20px 13px;
   color: #fff;
 }
-.haeder-menu .krapka, .haeder-menu .tochka2 {
+.haeder-menu .krapka,
+.haeder-menu .tochka2 {
   margin: 0px 10px 5px 10px;
 }
 
@@ -77,13 +83,15 @@
   justify-content: end;
   margin-top: -30px;
 }
-
-.menu-item {
-  display: inline-block;
+.menu a {
   font-size: 18px;
   color: #fff;
   font-weight: 500px;
   line-height: 21px;
+}
+
+.menu-item {
+  display: inline-block;
   margin: 7.5px;
 }
 
@@ -247,7 +255,9 @@
   width: 450px;
 }
 
-.contract, .protection, .court {
+.contract,
+.protection,
+.court {
   width: 450px;
   margin-top: 68px;
 }
