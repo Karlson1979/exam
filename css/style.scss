@@ -67,10 +67,23 @@ border-radius: 8px;
     }
     
     }
-    // .admin{
-      
-    //  justify-content: center;
-    // }
+    
+     .menu-burger{
+        display: none;
+        div{
+          
+        }
+      }
+  
+      .menu{
+        display: flex;
+        justify-content: end;
+        margin-top: -30px;}
+        .menu-item{
+          display: inline-block;
+          @include font(18px,$wf,500px,21px);
+          margin: 7.5px;
+        }
       
       .admin-1{
        color: $wf; 
@@ -190,4 +203,8 @@ margin-top: 15px;
 .contract, .protection,.court{
   width: 450px;
 margin-top: 68px;
-}   
+} 
+.card{
+  padding: 0px 60px 0px 10px;
+  
+}  
