@@ -18,9 +18,16 @@ html {
 .header {
 
   padding: 50px 60px 20px 60px;
+    
+    background:linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
+}
+.admin{
   background: url(../image/Symbol.svg) no-repeat bottom center,
-    url(../image/pattern.svg) no-repeat bottom center,
-    linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
+  url(../image/pattern.svg) no-repeat bottom center;
+  margin-top: 243px;
+  
+
+
 }
 
 .haeder-menu {
@@ -107,7 +114,6 @@ html {
 .admin-1 {
   color: $wf;
   text-align: center;
-  margin-top: 243px;
   @include font(38px, $wf, 800px, 45px);
 
 
