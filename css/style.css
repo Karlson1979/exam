@@ -263,5 +263,6 @@ html {
 }
 
 .card {
-  padding: 0px 60px 0px 10px;
+  width: 100%;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
