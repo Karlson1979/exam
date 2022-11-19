@@ -24,7 +24,13 @@ html {
 .admin{
   background: url(../image/Symbol\ Long\ leg.svg) no-repeat bottom center,
   url(../image/pattern.svg) no-repeat bottom center;
-  margin-top: 243px;
+  padding-top: 1px;
+  &-1{
+    
+    
+   margin-top: 243px;
+    
+  }
   
 
 
@@ -122,6 +128,7 @@ html {
 .pointer {
   @include fc();
   margin-top: 290px;
+  background: url(../image/Shade.svg) no-repeat 
 
 }
 

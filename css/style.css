@@ -19,6 +19,9 @@ html {
 
 .admin {
   background: url(../image/Symbol\ Long\ leg.svg) no-repeat bottom center, url(../image/pattern.svg) no-repeat bottom center;
+  padding-top: 1px;
+}
+.admin-1 {
   margin-top: 243px;
 }
 
@@ -115,6 +118,7 @@ html {
   align-items: center;
   flex-wrap: wrap;
   margin-top: 290px;
+  background: url(../image/Shade.svg) no-repeat;
 }
 
 .experience {
