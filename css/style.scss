@@ -323,6 +323,23 @@ html {
       
     }
 }
+.grid{
+  padding: 0 60px;
+  margin-top: 40px;
+  .case{
+    display: grid;
+    grid-template-columns: 433px 454px 433px;
+    grid-template-rows: 57px 255px 255px 198px 198px 198px 198px;
+    background: $gray-bg;
+
+    .cell{
+
+    }
+    .cell-1 p{
+@include grtext (14px, 500px, $red)
+    }
+  }
+}
 
  
   

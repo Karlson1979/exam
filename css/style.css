@@ -340,4 +340,24 @@ html {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
+}
+
+.grid {
+  padding: 0 60px;
+  margin-top: 40px;
+}
+.grid .case {
+  display: grid;
+  grid-template-columns: 433px 454px 433px;
+  grid-template-rows: 57px 255px 255px 198px 198px 198px 198px;
+  background: #F5F5FA;
+}
+.grid .case .cell-1 p {
+  background: #F0145A;
+  font-size: 14px;
+  font-weight: 500px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }/*# sourceMappingURL=style.css.map */
