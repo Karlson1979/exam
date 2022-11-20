@@ -21,6 +21,7 @@ html {
   background: url(../image/Symbol\ Long\ leg.svg) no-repeat bottom center, url(../image/pattern.svg) no-repeat bottom center;
   padding-top: 1px;
 }
+
 .admin-1 {
   margin-top: 243px;
 }
@@ -37,55 +38,58 @@ html {
   align-items: center;
   flex-wrap: wrap;
 }
-.haeder-menu .menu-rekvszit .uk,
-.haeder-menu .menu-rekvszit .en {
+.haeder-menu .uk,
+.haeder-menu .en {
   margin: 5px;
 }
-.haeder-menu .menu-rekvszit .link-uk,
-.haeder-menu .menu-rekvszit .link-ru,
-.haeder-menu .menu-rekvszit .link-en {
+.haeder-menu .link-uk,
+.haeder-menu .link-ru,
+.haeder-menu .link-en {
   color: #fff;
   font-size: 14px;
   color: #fff;
   font-weight: 700px;
   line-height: 19px;
 }
-.haeder-menu .menu-rekvszit .link-adres {
+.haeder-menu .link-adres {
   font-size: 16px;
   color: #fff;
   font-weight: 400px;
   line-height: 19px;
 }
-.haeder-menu .menu-rekvszit .tel {
+.haeder-menu .tel {
   font-size: 16px;
   color: #fff;
   font-weight: 700px;
   line-height: 19px;
 }
-.haeder-menu .menu-rekvszit .uk:hover {
+.haeder-menu .uk:hover {
   background: #F0145A;
   border-radius: 8px;
 }
-.haeder-menu .menu-rekvszit .ru:hover {
+.haeder-menu .ru:hover {
   background: #F0145A;
   border-radius: 8px;
 }
-.haeder-menu .menu-rekvszit .en:hover {
+.haeder-menu .en:hover {
   background: #F0145A;
   border-radius: 8px;
 }
-.haeder-menu .link-adres {
+
+.link-adres {
   margin: 20px 13px;
   color: #fff;
 }
-.haeder-menu .krapka,
-.haeder-menu .tochka2 {
+
+.krapka,
+.tochka2 {
   margin: 0px 10px 5px 10px;
 }
 
 .menu-burger {
   display: none;
 }
+
 .menu {
   display: flex;
   justify-content: end;
@@ -118,14 +122,14 @@ html {
   align-items: center;
   flex-wrap: wrap;
   margin-top: 290px;
-  background: url(../image/Shade.svg) no-repeat;
+  background: url(../image/Shade.svg);
 }
 
 .experience {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-evenly;
   flex-wrap: wrap;
+  margin-top: 100px;
 }
 
 .list {
@@ -133,8 +137,6 @@ html {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: end;
-  padding: 80px 173px 100px 60px;
-  margin-top: 100px;
   font-size: 42px;
   color: #B3B3BA;
   font-weight: 800px;
@@ -157,7 +159,7 @@ html {
 }
 
 .txt {
-  margin-top: 151px;
+  margin-top: 50px;
 }
 .txt .txt-2 {
   margin-top: 20px;
@@ -175,6 +177,12 @@ html {
   color: #fff;
   font-weight: 500px;
   line-height: 30px;
+}
+
+.section-2 {
+  padding: 50px 60px 20px 60px;
+  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%) no-repeat bottom center;
+  border-radius: 0px 0px 12px 12px;
 }
 
 .link-1 {
@@ -273,4 +281,63 @@ html {
 .card {
   width: 100%;
   text-align: center;
+}
+
+.section-carousel {
+  padding: 0 60px;
+  margin-top: 100px;
+}
+
+.carousel {
+  background: #F5F5FA;
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.comand a {
+  font-size: 14px;
+  color: #24A3FF;
+  font-weight: 700px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.comanda-txt {
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  font-size: 42px;
+  font-weight: 700px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.comanda-txt-2 {
+  margin-top: 20px;
+}
+.comanda-txt-2 p {
+  background: #B3B3BA;
+  font-size: 18px;
+  font-weight: 400px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.comanda-txt-3 {
+  margin-top: 5px;
+}
+.comanda-txt-3 p {
+  background: #B3B3BA;
+  font-size: 16px;
+  font-weight: 400px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }/*# sourceMappingURL=style.css.map */
