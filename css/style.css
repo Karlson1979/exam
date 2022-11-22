@@ -292,9 +292,13 @@ html {
   background: #F5F5FA;
 }
 
-.carousel-item {
+.faser {
   display: flex;
   justify-content: space-evenly;
+}
+
+.comand {
+  margin-top: 40px;
 }
 
 .comand a {
@@ -340,6 +344,12 @@ html {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
+}
+
+.carousel-indicators button {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
 }
 
 .grid {

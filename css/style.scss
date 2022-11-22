@@ -288,16 +288,20 @@ html {
 .carousel{
   background: $gray-bg;
 }
-.carousel-item{
+.faser{
   display: flex;
   justify-content: space-evenly;
 
 }
 
+.comand{
+  margin-top: 40px;
+}
 .comand a {
   @include font(14px, $blu, 700px, 17px);
   letter-spacing: 1px;
   text-transform: uppercase;
+  
 }
 
 .comanda-txt {
@@ -322,6 +326,11 @@ html {
      
       
     }
+}
+.carousel-indicators button{
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
 }
 .grid{
   padding: 0 60px;
