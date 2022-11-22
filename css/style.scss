@@ -329,17 +329,39 @@ html {
   .case{
     display: grid;
     grid-template-columns: 433px 454px 433px;
-    grid-template-rows: 57px 255px 255px 198px 198px 198px 198px;
-    background: $gray-bg;
+    grid-template-rows: 57px 255px 255px;
+grid-gap: 5px;}}
+    .cell-1,.cell{
+      background: $gray-bg; 
+      @include fc();}
 
-    .cell{
+      .cell:nth-child(2){
+grid-row: 1/ 3;
+grid-column: 2 / 2;
+      }
+      .cell:nth-child(3){
+        grid-row: 1/ 3;
+        grid-column: 3 / 3;
+              } 
+              .cell:nth-child(4){
+                grid-row: 1/ 3;
+                grid-column: 2 / 2;
+                      }
 
-    }
-    .cell-1 p{
+    
+    .cell-red{
 @include grtext (14px, 500px, $red)
     }
-  }
-}
+    .cell-txt{
+@include grtext (24px, 500px, $gray-txt2);
+
+    }
+    .cell-txt-1{
+@include grtext (18px, 500px, $gray-txt);
+
+    }
+  
+
 
  
   
