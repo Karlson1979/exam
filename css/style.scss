@@ -431,3 +431,11 @@ margin: 20px ;
 margin: 20px;
 
 }
+.partners{
+  @include grtext (14px, 500px, #323264);
+margin: 30px 641px;
+}
+.baner{
+  @include fc();
+ 
+}

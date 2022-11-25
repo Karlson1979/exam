@@ -458,4 +458,22 @@ html {
   background-clip: text;
   text-fill-color: transparent;
   margin: 20px;
+}
+
+.partners {
+  background: #323264;
+  font-size: 14px;
+  font-weight: 500px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin: 30px 641px;
+}
+
+.baner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }/*# sourceMappingURL=style.css.map */
