@@ -359,10 +359,7 @@ html {
 }
 .grid .case {
   display: grid;
-  grid-template-columns: 433px 454px 433px 320px 453px 547px;
-  grid-template-rows: 57px 255px 255px 198px 198px 198px;
-  grid-gap: 5px;
-  padding: 0 60px;
+  grid-gap: 1px;
 }
 
 .cell-1,
@@ -469,11 +466,38 @@ html {
   background-clip: text;
   text-fill-color: transparent;
   margin: 30px 641px;
+  text-align: center;
 }
 
-.baner {
+.group-1 {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin: -4px;
+}
+
+.publish {
+  background: #24A3FF;
+  font-size: 14px;
+  font-weight: 500px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.history {
+  padding: 0 60px;
+  margin-top: 40px;
+  background: #F5F5FA;
+}
+.history h2 {
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  font-size: 42px;
+  font-weight: 500px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }/*# sourceMappingURL=style.css.map */

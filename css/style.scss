@@ -350,10 +350,10 @@ html {
 
   .case {
     display: grid;
-    grid-template-columns: 433px 454px 433px 320px 453px 547px;
-    grid-template-rows: 57px 255px 255px 198px 198px 198px;
-    grid-gap: 5px;
-  padding: 0 60px;
+    // grid-template-columns: 433px 454px 433px 320px 453px 547px;
+    // grid-template-rows: 57px 255px 255px 198px 198px 198px;
+    grid-gap: 1px;
+  // padding: 0 60px;
   //  width: 100%; 
     
   }
@@ -434,8 +434,31 @@ margin: 20px;
 .partners{
   @include grtext (14px, 500px, #323264);
 margin: 30px 641px;
+text-align: center;
 }
-.baner{
+// 
+.group-1{
   @include fc();
- 
+  margin: -4px;
+}
+// .baner-1,.baner-2,.baner-3,.baner-4,.baner-5,.baner-6,.baner-7,.baner-8,
+// .baner-9,.baner-10,.baner-11,.baner-12{
+//   display: inline-block;
+//   margin: -4px;
+
+
+// }
+.publish{
+  @include grtext (14px, 500px, $blu);
+
+}
+.history{
+  padding: 0 60px;
+  margin-top: 40px;
+  background: $gray-bg;
+
+h2{
+  @include grtext (42px, 500px, $bg-txt2);
+  
+}
 }
