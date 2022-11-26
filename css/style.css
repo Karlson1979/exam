@@ -477,6 +477,11 @@ html {
   margin: -4px;
 }
 
+.baner-1, .baner-2, .baner-3, .baner-4, .baner-5, .baner-6, .baner-7, .baner-8,
+.baner-9, .baner-10, .baner-11, .baner-12 {
+  flex-basis: content;
+}
+
 .publish {
   background: #24A3FF;
   font-size: 14px;
@@ -488,8 +493,7 @@ html {
 }
 
 .history {
-  padding: 0 60px;
-  margin-top: 40px;
+  padding: 40px 60px;
   background: #F5F5FA;
 }
 .history h2 {

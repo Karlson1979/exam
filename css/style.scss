@@ -440,21 +440,20 @@ text-align: center;
 .group-1{
   @include fc();
   margin: -4px;
+
 }
-// .baner-1,.baner-2,.baner-3,.baner-4,.baner-5,.baner-6,.baner-7,.baner-8,
-// .baner-9,.baner-10,.baner-11,.baner-12{
-//   display: inline-block;
-//   margin: -4px;
+.baner-1,.baner-2,.baner-3,.baner-4,.baner-5,.baner-6,.baner-7,.baner-8,
+.baner-9,.baner-10,.baner-11,.baner-12{
+  flex-basis: content;
 
-
-// }
+ }
 .publish{
   @include grtext (14px, 500px, $blu);
-
+  // margin-top: 40px;
 }
 .history{
-  padding: 0 60px;
-  margin-top: 40px;
+  padding: 40px 60px;
+  
   background: $gray-bg;
 
 h2{
