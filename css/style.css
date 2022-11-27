@@ -11,6 +11,11 @@ html {
   outline: none;
   font-family: "TT Norms", sans-serif;
 }
+* a,
+body a,
+html a {
+  text-decoration: none;
+}
 
 .header {
   padding: 50px 60px 20px 60px;
@@ -18,7 +23,7 @@ html {
 }
 
 .admin {
-  background: url(../image/Shade.svg) no-repeat bottom center, url(../image/Symbol\ Long\ leg.svg) no-repeat bottom center, url(../image/pattern.svg) no-repeat bottom center;
+  background: url("../image/Shade.svg") repeat-x bottom, url("../image/Symbol Long leg.svg") no-repeat bottom center, url("../image/pattern.svg") no-repeat bottom center;
   padding-top: 1px;
 }
 
@@ -281,6 +286,7 @@ html {
 .card {
   width: 100%;
   text-align: center;
+  border: none;
 }
 
 .section-carousel {
@@ -359,6 +365,7 @@ html {
 }
 .grid .case {
   display: grid;
+  grid-template-columns: 320px 110px 453px 547px;
   grid-gap: 1px;
 }
 
@@ -469,17 +476,22 @@ html {
   text-align: center;
 }
 
-.group-1 {
+.partners-sectoin {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   margin: -4px;
+  width: 100%;
 }
 
 .baner-1, .baner-2, .baner-3, .baner-4, .baner-5, .baner-6, .baner-7, .baner-8,
 .baner-9, .baner-10, .baner-11, .baner-12 {
-  flex-basis: content;
+  flex-basis: 25%;
+}
+.baner-1 img, .baner-2 img, .baner-3 img, .baner-4 img, .baner-5 img, .baner-6 img, .baner-7 img, .baner-8 img,
+.baner-9 img, .baner-10 img, .baner-11 img, .baner-12 img {
+  width: 100%;
 }
 
 .publish {

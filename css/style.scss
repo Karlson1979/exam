@@ -13,6 +13,8 @@ html {
   border: none;
   outline: none;
   font-family: 'TT Norms', sans-serif;
+  a{text-decoration: none;
+}
 }
 
 .header {
@@ -25,9 +27,9 @@ html {
 
 .admin {
   background:
-  url(../image/Shade.svg) no-repeat bottom center,
-    url(../image/Symbol\ Long\ leg.svg) no-repeat bottom center,
-    url(../image/pattern.svg) no-repeat bottom center;
+  url("../image/Shade.svg") repeat-x bottom ,
+    url("../image/Symbol Long leg.svg") no-repeat bottom center,
+    url("../image/pattern.svg") no-repeat bottom center;
 
   padding-top: 1px;
 
@@ -278,6 +280,7 @@ html {
 
   width: 100%;
   text-align: center;
+  border: none;
 }
 
 // section-carousel
@@ -350,7 +353,7 @@ html {
 
   .case {
     display: grid;
-    // grid-template-columns: 433px 454px 433px 320px 453px 547px;
+    grid-template-columns: 320px 110px 453px 547px;
     // grid-template-rows: 57px 255px 255px 198px 198px 198px;
     grid-gap: 1px;
   // padding: 0 60px;
@@ -437,14 +440,20 @@ margin: 30px 641px;
 text-align: center;
 }
 // 
-.group-1{
+.partners-sectoin{
   @include fc();
   margin: -4px;
+width: 100%;
 
+
+// flex-basis: content;
 }
 .baner-1,.baner-2,.baner-3,.baner-4,.baner-5,.baner-6,.baner-7,.baner-8,
 .baner-9,.baner-10,.baner-11,.baner-12{
-  flex-basis: content;
+  flex-basis: 25%;
+  img{
+width: 100%;
+  }
 
  }
 .publish{
