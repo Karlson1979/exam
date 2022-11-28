@@ -365,7 +365,6 @@ html a {
 }
 .grid .case {
   display: grid;
-  grid-template-columns: 320px 113px 350px 134px 433px;
   grid-template-rows: 57px 198px 200px;
   grid-gap: 2px;
 }
@@ -543,8 +542,7 @@ html a {
 
 .pablic {
   display: grid;
-  grid-template-columns: 413px 413px 413px;
-  grid-template-rows: 265px 150px 10px 233px;
+  grid-template-rows: 265px 150px 10px 223px;
   grid-gap: 40px;
   margin-top: 40px;
 }
@@ -570,7 +568,7 @@ html a {
 }
 
 .pablic-5:nth-child(5) {
-  grid-row: 3/6;
+  grid-row: 2/5;
   grid-column: 2/3;
 }
 
@@ -620,7 +618,15 @@ html a {
 
 .pablic-5 {
   position: relative;
-  background: url(../image/image-3.png) no-repeat bottom;
+  background: url(../image/Shade-1.svg) no-repeat bottom, url(../image/image-3.png) no-repeat bottom;
+}
+
+.pablic-4 {
+  background: url(../image/Shade-1.svg) no-repeat bottom, #fff;
+}
+
+.pablic-6 {
+  background: url(../image/Shade-1.svg) no-repeat bottom, url(../image/image-4.png) no-repeat bottom;
 }
 
 button {
