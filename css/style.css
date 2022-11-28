@@ -365,8 +365,9 @@ html a {
 }
 .grid .case {
   display: grid;
-  grid-template-columns: 320px 113px 340px 113px 434px;
-  grid-gap: 5px;
+  grid-template-columns: 320px 113px 350px 134px 433px;
+  grid-template-rows: 57px 198px 200px;
+  grid-gap: 2px;
 }
 
 .cell-1,
@@ -377,43 +378,36 @@ html a {
 .cell:nth-child(1) {
   grid-row: 1/2;
   grid-column: 1/3;
-  background: #000;
 }
 
 .cell:nth-child(2) {
   grid-row: 1/3;
   grid-column: 3/5;
-  background: rgb(196, 54, 54);
 }
 
 .cell:nth-child(3) {
   grid-row: 1/3;
   grid-column: 5/6;
-  background: rgb(59, 23, 188);
 }
 
 .cell:nth-child(4) {
   grid-row: 2/3;
   grid-column: 1/3;
-  background: rgb(40, 211, 77);
 }
 
 .cell:nth-child(5) {
   grid-row: 3/4;
   grid-column: 1/2;
-  background: rgb(172, 210, 49);
 }
 
 .cell:nth-child(6) {
   grid-row: 3/4;
   grid-column: 4/6;
-  background: rgb(224, 10, 224);
 }
 
 .cell:nth-child(7) {
   grid-row: 3/4;
   grid-column: 2/4;
-  background: rgb(129, 200, 236);
 }
 
 .cell-red {
@@ -435,11 +429,22 @@ html a {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
-  margin: 105px 20px 66px 20px;
+  margin: 105px 0px 0px 20px;
 }
 
-.cell-txt-4, .cell-txt-5, .cell-txt-6, .cell-txt-7 {
-  margin: 48px 20px 66px 20px;
+.cell-txt-4, .cell-txt-6, .cell-txt-7 {
+  margin: 76px 0px 0px 20px;
+  background: #686887;
+  font-size: 24px;
+  font-weight: 500px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.cell-txt-5 {
+  margin: 50px 0px 0px 20px;
   background: #686887;
   font-size: 24px;
   font-weight: 500px;
@@ -457,7 +462,7 @@ html a {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
-  margin: 20px;
+  margin: 20px 0 0 20px;
 }
 
 .cell-txt-12 {
@@ -468,7 +473,18 @@ html a {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
-  margin: 20px;
+  margin: 20px 0 0 20px;
+}
+
+.cell-txt-13 {
+  background: #B3B3BA;
+  font-size: 18px;
+  font-weight: 500px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin: 50px 0 0 20px;
 }
 
 .partners {
@@ -523,4 +539,105 @@ html a {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
+}
+
+.pablic {
+  display: grid;
+  grid-template-columns: 413px 413px 413px;
+  grid-template-rows: 265px 150px 10px 233px;
+  grid-gap: 40px;
+  margin-top: 40px;
+}
+
+.pablic-1:nth-child(1) {
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+
+.pablic-2:nth-child(2) {
+  grid-row: 1/3;
+  grid-column: 2/3;
+}
+
+.pablic-3:nth-child(3) {
+  grid-row: 1/4;
+  grid-column: 3/4;
+}
+
+.pablic-4:nth-child(4) {
+  grid-row: 2/5;
+  grid-column: 1/2;
+}
+
+.pablic-5:nth-child(5) {
+  grid-row: 3/6;
+  grid-column: 2/3;
+}
+
+.pablic-6:nth-child(6) {
+  grid-row: 4/5;
+  grid-column: 3/4;
+}
+
+.pablic-1, .pablic-2, .pablic-3, .pablic-4 {
+  background: #fff;
+}
+.pablic-1 p, .pablic-2 p, .pablic-3 p, .pablic-4 p {
+  background: #24A3FF;
+  font-size: 18px;
+  font-weight: 500px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin: 20px;
+}
+.pablic-1 h5, .pablic-2 h5, .pablic-3 h5, .pablic-4 h5 {
+  background: #B3B3BA;
+  font-size: 12px;
+  font-weight: 500px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin: 10px 20px 0 20px;
+}
+.pablic-1 .line, .pablic-2 .line, .pablic-3 .line, .pablic-4 .line {
+  width: 373px;
+  height: 3px;
+  background: #E6E6F0;
+  margin: 20px 0 0 20px;
+}
+.pablic-1 .txt-p, .pablic-2 .txt-p, .pablic-3 .txt-p, .pablic-4 .txt-p {
+  background: #000;
+  font-size: 16px;
+  font-weight: 300px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.pablic-5 {
+  position: relative;
+  background: url(../image/image-3.png) no-repeat bottom;
+}
+
+button {
+  background: #24A3FF;
+  border-radius: 15px;
+  padding: 12px 60px 12px 60px;
+  position: absolute;
+  bottom: 0;
+  margin-left: 25%;
+}
+button a {
+  background: #fff;
+  font-size: 16px;
+  font-weight: 300px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  display: block;
 }/*# sourceMappingURL=style.css.map */
