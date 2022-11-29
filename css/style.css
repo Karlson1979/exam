@@ -590,6 +590,9 @@ html a {
   text-fill-color: transparent;
   margin: 20px;
 }
+.pablic-1 img, .pablic-2 img, .pablic-3 img, .pablic-4 img {
+  width: 100%;
+}
 .pablic-1 h5, .pablic-2 h5, .pablic-3 h5, .pablic-4 h5 {
   background: #B3B3BA;
   font-size: 12px;
@@ -616,13 +619,16 @@ html a {
   text-fill-color: transparent;
 }
 
+.pablic-4 {
+  background: url(../image/Shade-1.svg) no-repeat bottom, #fff;
+}
+.pablic-4 img {
+  width: 100%;
+}
+
 .pablic-5 {
   position: relative;
   background: url(../image/Shade-1.svg) no-repeat bottom, url(../image/image-3.png) no-repeat bottom;
-}
-
-.pablic-4 {
-  background: url(../image/Shade-1.svg) no-repeat bottom, #fff;
 }
 
 .pablic-6 {
@@ -634,7 +640,7 @@ button {
   border-radius: 15px;
   padding: 12px 60px 12px 60px;
   position: absolute;
-  bottom: 0;
+  bottom: 15px;
   margin-left: 25%;
 }
 button a {
@@ -646,4 +652,67 @@ button a {
   background-clip: text;
   text-fill-color: transparent;
   display: block;
+}
+
+.footer {
+  padding: 10px 60px 0 60px;
+  background: #F5F5FA;
+}
+
+.line-2 {
+  height: 4px;
+  background: #E6E6F0;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.rekviz {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.rekvezit-footer {
+  display: flex;
+}
+.rekvezit-footer p {
+  background: #323264;
+  font-size: 16px;
+  font-weight: 400px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.tochka-2 {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #B3B3BA;
+  margin-top: 9px;
+  margin-left: 30px;
+}
+
+.link-adres-1 {
+  background: #24A3FF;
+  font-size: 12px;
+  font-weight: 700px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-left: 10px;
+}
+
+.HLEGALS {
+  background: #B3B3BA;
+  font-size: 16px;
+  font-weight: 400px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }/*# sourceMappingURL=style.css.map */
