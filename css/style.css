@@ -715,4 +715,19 @@ button a {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
+}
+
+.footer-and {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.footer-and .facebook {
+  margin-top: -10px;
+}
+.footer-and .tel {
+  margin-left: 1px;
+}
+.footer-and .email {
+  margin-left: 10px;
 }/*# sourceMappingURL=style.css.map */
