@@ -353,11 +353,18 @@ html a {
   text-fill-color: transparent;
 }
 
-.carousel-indicators button {
+.carousel-indicators [data-bs-target] {
   width: 16px;
   height: 16px;
   border-radius: 50%;
   background: #24A3FF;
+  border-top: none;
+  border-bottom: 0px;
+  transition: none;
+}
+
+.carousel-indicators {
+  margin-bottom: -30px;
 }
 
 .grid {
@@ -640,11 +647,11 @@ button {
   background: #24A3FF;
   border-radius: 15px;
   padding: 12px 60px 12px 60px;
-  position: absolute;
   bottom: 15px;
   margin-left: 25%;
 }
-button a {
+
+a {
   background: #fff;
   font-size: 16px;
   font-weight: 300px;
