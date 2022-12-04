@@ -112,6 +112,10 @@ html a {
   margin: 7.5px;
 }
 
+.menu-item.active {
+  border-bottom: 2px solid #fff;
+}
+
 .admin-1 {
   color: #fff;
   text-align: center;
@@ -283,7 +287,8 @@ html a {
   margin-top: 68px;
 }
 
-.card, .card-serv {
+.card,
+.card-serv {
   width: 100%;
   text-align: center;
   border: none;
@@ -426,7 +431,8 @@ html a {
   padding: 20px 280px 20px 20px;
 }
 
-.cell-txt-2, .cell-txt-3 {
+.cell-txt-2,
+.cell-txt-3 {
   background: #686887;
   font-size: 24px;
   font-weight: 500px;
@@ -437,7 +443,9 @@ html a {
   margin: 105px 0px 0px 20px;
 }
 
-.cell-txt-4, .cell-txt-6, .cell-txt-7 {
+.cell-txt-4,
+.cell-txt-6,
+.cell-txt-7 {
   margin: 76px 0px 0px 20px;
   background: #686887;
   font-size: 24px;
@@ -513,12 +521,32 @@ html a {
   width: 100%;
 }
 
-.baner-1, .baner-2, .baner-3, .baner-4, .baner-5, .baner-6, .baner-7, .baner-8,
-.baner-9, .baner-10, .baner-11, .baner-12 {
+.baner-1,
+.baner-2,
+.baner-3,
+.baner-4,
+.baner-5,
+.baner-6,
+.baner-7,
+.baner-8,
+.baner-9,
+.baner-10,
+.baner-11,
+.baner-12 {
   flex-basis: 25%;
 }
-.baner-1 img, .baner-2 img, .baner-3 img, .baner-4 img, .baner-5 img, .baner-6 img, .baner-7 img, .baner-8 img,
-.baner-9 img, .baner-10 img, .baner-11 img, .baner-12 img {
+.baner-1 img,
+.baner-2 img,
+.baner-3 img,
+.baner-4 img,
+.baner-5 img,
+.baner-6 img,
+.baner-7 img,
+.baner-8 img,
+.baner-9 img,
+.baner-10 img,
+.baner-11 img,
+.baner-12 img {
   width: 100%;
 }
 
@@ -583,10 +611,16 @@ html a {
   grid-column: 3/4;
 }
 
-.pablic-1, .pablic-2, .pablic-3, .pablic-4 {
+.pablic-1,
+.pablic-2,
+.pablic-3,
+.pablic-4 {
   background: #fff;
 }
-.pablic-1 p, .pablic-2 p, .pablic-3 p, .pablic-4 p {
+.pablic-1 p,
+.pablic-2 p,
+.pablic-3 p,
+.pablic-4 p {
   background: #24A3FF;
   font-size: 18px;
   font-weight: 500px;
@@ -596,10 +630,16 @@ html a {
   text-fill-color: transparent;
   margin: 20px;
 }
-.pablic-1 img, .pablic-2 img, .pablic-3 img, .pablic-4 img {
+.pablic-1 img,
+.pablic-2 img,
+.pablic-3 img,
+.pablic-4 img {
   width: 100%;
 }
-.pablic-1 h5, .pablic-2 h5, .pablic-3 h5, .pablic-4 h5 {
+.pablic-1 h5,
+.pablic-2 h5,
+.pablic-3 h5,
+.pablic-4 h5 {
   background: #B3B3BA;
   font-size: 12px;
   font-weight: 500px;
@@ -609,13 +649,19 @@ html a {
   text-fill-color: transparent;
   margin: 10px 20px 0 20px;
 }
-.pablic-1 .line, .pablic-2 .line, .pablic-3 .line, .pablic-4 .line {
+.pablic-1 .line,
+.pablic-2 .line,
+.pablic-3 .line,
+.pablic-4 .line {
   width: 373px;
   height: 3px;
   background: #E6E6F0;
   margin: 20px 0 0 20px;
 }
-.pablic-1 .txt-p, .pablic-2 .txt-p, .pablic-3 .txt-p, .pablic-4 .txt-p {
+.pablic-1 .txt-p,
+.pablic-2 .txt-p,
+.pablic-3 .txt-p,
+.pablic-4 .txt-p {
   background: #000;
   font-size: 16px;
   font-weight: 300px;

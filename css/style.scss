@@ -128,8 +128,12 @@ html {
 .menu-item {
   display: inline-block;
 
-  margin: 7.5px;
-}
+  margin: 7.5px;}
+
+  .menu-item.active{
+    border-bottom: 2px solid #fff;
+  }
+
 
 .admin-1 {
   color: $wf;
