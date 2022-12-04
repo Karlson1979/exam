@@ -361,12 +361,15 @@ html a {
   border-bottom: 0px;
   transition: none;
   margin: 10px;
-  margin-bottom: -40px;
+}
+
+button {
+  position: static !important;
 }
 
 .grid {
   padding: 0 60px;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 .grid .case {
   display: grid;
