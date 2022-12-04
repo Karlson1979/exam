@@ -224,8 +224,8 @@ html a {
 }
 
 .teg {
-  margin-left: 5.5px;
-  margin-top: 1.5px;
+  margin-left: -50px;
+  margin-top: 50px;
 }
 
 .work {
@@ -649,7 +649,7 @@ button {
   margin-left: 25%;
   display: block;
   position: absolute;
-  margin-top: 130px;
+  margin-top: 100px;
 }
 button a {
   background: #fff;
@@ -667,7 +667,7 @@ button a {
 }
 
 .line-2 {
-  height: 4px;
+  height: 250px;
   background: #E6E6F0;
   margin-top: 5px;
   width: 100%;
@@ -740,4 +740,28 @@ button a {
 }
 .footer-and .email a {
   color: #24A3FF;
+}
+
+.services {
+  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%) no-repeat bottom center;
+  padding: 50px 60px 0 60px;
+}
+
+.menu {
+  margin-top: -25px;
+}
+
+.section-serv {
+  margin-top: 78px;
+  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%) no-repeat bottom center;
+  border-radius: 0px 0px 12px 12px;
+}
+
+.reklama-serv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 68px;
+  align-items: stretch;
 }/*# sourceMappingURL=style.css.map */
