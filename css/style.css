@@ -361,15 +361,13 @@ html a {
   border-bottom: 0px;
   transition: none;
   margin: 10px;
-}
-
-button {
-  position: static !important;
+  position: static;
+  margin-bottom: -80px;
 }
 
 .grid {
-  padding: 0 60px;
-  margin-top: 60px;
+  padding: 0 40px;
+  margin-top: 40px;
 }
 .grid .case {
   display: grid;
@@ -651,7 +649,7 @@ button {
   margin-left: 25%;
   display: block;
   position: absolute;
-  margin-top: 300px;
+  margin-top: 130px;
 }
 button a {
   background: #fff;
