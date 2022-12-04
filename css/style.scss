@@ -742,6 +742,48 @@ button {
   padding: 50px 60px 0 60px;
 }
 
+.breadcrambs{
+  
+ ul{
+  display: flex;
+  // align-items: center;
+  justify-content: center;
+ } 
+ &-item{
+  margin-right: 26px;
+  position: relative;
+  &:after{
+    content:"";
+    position: absolute;
+    right: -26px;
+    top: 0;
+    width: 21px;
+    height: 47px;
+    background: url(../image/Slash.png) no-repeat;
+    background-size: cover;
+  }
+  
+  &:last-child::after{
+    background: url(../image/p-small.png) no-repeat;
+    width: 41px;
+    height: 47px;
+    right: -46px;
+    top: -13px;
+    
+    
+
+  }
+ }
+}
+.link-15{
+  margin-top: 15px
+}
+.breadcrambs-link{
+  @include grtext (38px, 400px,$wf);
+  
+ 
+}
+
 .menu {
   margin-top: -25px;
 }

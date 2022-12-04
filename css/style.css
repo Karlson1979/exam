@@ -793,6 +793,46 @@ button a {
   padding: 50px 60px 0 60px;
 }
 
+.breadcrambs ul {
+  display: flex;
+  justify-content: center;
+}
+.breadcrambs-item {
+  margin-right: 26px;
+  position: relative;
+}
+.breadcrambs-item:after {
+  content: "";
+  position: absolute;
+  right: -26px;
+  top: 0;
+  width: 21px;
+  height: 47px;
+  background: url(../image/Slash.png) no-repeat;
+  background-size: cover;
+}
+.breadcrambs-item:last-child::after {
+  background: url(../image/p-small.png) no-repeat;
+  width: 41px;
+  height: 47px;
+  right: -46px;
+  top: -13px;
+}
+
+.link-15 {
+  margin-top: 15px;
+}
+
+.breadcrambs-link {
+  background: #fff;
+  font-size: 38px;
+  font-weight: 400px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
 .menu {
   margin-top: -25px;
 }
