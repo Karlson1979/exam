@@ -850,4 +850,68 @@ button a {
   flex-wrap: wrap;
   margin-top: 68px;
   align-items: stretch;
+}
+
+.about {
+  padding: 50px 60px 0 60px;
+}
+
+.link-15about {
+  margin-top: 15px;
+}
+.link-15about .breadcrambs-link-about {
+  color: #323264;
+}
+
+.link-uk-about,
+.link-ru-about,
+.link-en-about {
+  font-size: 14px;
+  color: #B3B3BA;
+  font-weight: 700px;
+  line-height: 19px;
+}
+
+.link-adres-about {
+  font-size: 16px;
+  color: #B3B3BA;
+  font-weight: 400px;
+  line-height: 19px;
+}
+
+.tel-about {
+  font-size: 16px;
+  color: #B3B3BA;
+  font-weight: 700px;
+  line-height: 19px;
+}
+
+.menu-about {
+  margin-top: -25px;
+  display: flex;
+  justify-content: end;
+  margin-top: -30px;
+}
+.menu-about a {
+  font-size: 18px;
+  color: #24A3FF;
+  font-weight: 500px;
+  line-height: 21px;
+}
+.menu-about .menu-item.active {
+  border-bottom: 2px solid #F0145A;
+}
+.menu-about .menu-item.active a {
+  color: #F0145A;
+}
+
+.introduction-about {
+  padding: 100px 60px 0 172px;
+}
+
+.introduction h1 {
+  font-size: 42px;
+  color: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  font-weight: 500px;
+  line-height: 50px;
 }/*# sourceMappingURL=style.css.map */

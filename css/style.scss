@@ -776,7 +776,7 @@ button {
  }
 }
 .link-15{
-  margin-top: 15px
+  margin-top: 15px;
 }
 .breadcrambs-link{
   @include grtext (38px, 400px,$wf);
@@ -800,3 +800,56 @@ button {
   margin-top: 68px;
   align-items: stretch;
 }
+
+//PAGE-ABOUT
+.about{
+  padding: 50px 60px 0 60px;
+}
+.link-15about{
+  margin-top: 15px;
+  .breadcrambs-link-about{
+    color: #323264;}
+  
+}
+.link-uk-about,
+  .link-ru-about,
+  .link-en-about {
+    
+    @include font(14px, $gray-txt, 700px, 19px);
+  }
+  .link-adres-about{
+    @include font(16px, $gray-txt, 400px, 19px);
+
+  }
+  .tel-about{
+    @include font(16px, $gray-txt, 700px, 19px);
+  }
+  .menu-about{
+  margin-top: -25px;
+  display: flex;
+  justify-content: end;
+  margin-top: -30px;
+
+  a {
+    @include font(18px, $blu, 500px, 21px);
+  }
+  .menu-item.active{
+    border-bottom: 2px solid $red;
+    a{
+    color: $red;
+    
+  }
+
+}
+  }
+  .introduction-about{
+    padding:100px 60px 0  172px;
+  }
+  .introduction h1{
+    
+    @include font(42px, $bg-2, 500px, 50px);
+      
+    
+  }
+
+  
