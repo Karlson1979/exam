@@ -845,11 +845,27 @@ button {
   .introduction-about{
     padding:100px 60px 0  172px;
   }
-  .introduction h1{
+  .introduction{
+width: 641px;
+@include fb();
+   h1{
     
     @include font(42px, $bg-2, 500px, 50px);
-      
-    
+  } 
+  p{
+    @include font(21px, #000000, 500px, 30px);
+margin-top: 20px;
+  }
+  h2{
+    @include font(21px, #000, 500px, 30px);
+margin-top: 25px;
+  }
+  }
+  .line-about{
+    margin-left: 42px;
+    width: 4px;
+    height: 307px;
+    background: #E6E6F0;
   }
 
-  
+
