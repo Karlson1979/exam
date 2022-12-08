@@ -843,11 +843,15 @@ button {
 }
   }
   .introduction-about{
+   display: flex;
+   justify-content: start;
+   flex-wrap: wrap;
     padding:100px 60px 0  172px;
   }
   .introduction{
 width: 641px;
-@include fb();
+
+
    h1{
     
     @include font(42px, $bg-2, 500px, 50px);
@@ -867,5 +871,23 @@ margin-top: 25px;
     height: 307px;
     background: #E6E6F0;
   }
+  .letter{
+    margin-left: 20px;
+  }
+  .letter-1,.letter-2,.letter-3{
+    img{
+      display: inline-block;
+      margin-bottom: 15px;
+    }
+    p{
+      display: inline-block;
+      @include font(36px, $red, 500px, 30px);
+
+    }
+  }
+  .letter-2,.letter-3{
+    margin-top: 40px;
+  }
+  
 
 

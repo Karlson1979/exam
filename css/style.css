@@ -906,15 +906,14 @@ button a {
 }
 
 .introduction-about {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
   padding: 100px 60px 0 172px;
 }
 
 .introduction {
   width: 641px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
 }
 .introduction h1 {
   font-size: 42px;
@@ -942,4 +941,24 @@ button a {
   width: 4px;
   height: 307px;
   background: #E6E6F0;
+}
+
+.letter {
+  margin-left: 20px;
+}
+
+.letter-1 img, .letter-2 img, .letter-3 img {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.letter-1 p, .letter-2 p, .letter-3 p {
+  display: inline-block;
+  font-size: 36px;
+  color: #F0145A;
+  font-weight: 500px;
+  line-height: 30px;
+}
+
+.letter-2, .letter-3 {
+  margin-top: 40px;
 }/*# sourceMappingURL=style.css.map */
