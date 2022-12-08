@@ -961,4 +961,20 @@ button a {
 
 .letter-2, .letter-3 {
   margin-top: 40px;
+}
+
+.comand {
+  background: url(../image/Photo.png);
+  margin-top: 100px;
+}
+.comand h3 {
+  font-size: 96px;
+  color: #fff;
+  font-weight: 500px;
+  line-height: 113px;
+  line-height: 113px;
+  text-align: center;
+  letter-spacing: 63px;
+  text-transform: uppercase;
+  padding: 163px 267px;
 }/*# sourceMappingURL=style.css.map */

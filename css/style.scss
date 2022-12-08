@@ -888,6 +888,25 @@ margin-top: 25px;
   .letter-2,.letter-3{
     margin-top: 40px;
   }
-  
+  .comand{
+    background: url(../image/Photo.png);
+    margin-top: 100px;
+    h3{
+      @include font(96px, $wf, 500px, 113px);
+
+      // font-size: 96px;
+line-height: 113px;
+text-align: center;
+letter-spacing: 63px;
+text-transform: uppercase;
+
+
+// color: #FFFFFF;
+
+
+padding: 163px 267px;
+
+    }
+  }
 
 
