@@ -954,7 +954,7 @@ button a {
 .letter-1 p, .letter-2 p, .letter-3 p {
   display: inline-block;
   font-size: 36px;
-  color: #F0145A;
+  color: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
   font-weight: 500px;
   line-height: 30px;
 }
@@ -1003,4 +1003,23 @@ button a {
   color: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
   font-weight: 500px;
   line-height: 50px;
+}
+
+.progress-carousel p {
+  font-size: 14px;
+  color: #323264;
+  font-weight: 500px;
+  line-height: 17px;
+  text-align: center;
+}
+
+.progress-carousel {
+  background: url(../image/grey.png) repeat-x bottom;
+}
+
+.line-6 {
+  height: 4px;
+  background: #E6E6F0;
+  margin-top: 30px;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
