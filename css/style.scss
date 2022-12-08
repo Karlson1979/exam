@@ -888,25 +888,35 @@ margin-top: 25px;
   .letter-2,.letter-3{
     margin-top: 40px;
   }
-  .comand{
-    background: url(../image/Photo.png);
+  .command{
+    background: url(../image/Photo.png) no-repeat, 100%;
     margin-top: 100px;
     h3{
-      @include font(96px, $wf, 500px, 113px);
-
-      // font-size: 96px;
+      @include font(96px, $wf, 500px, 113px); 
 line-height: 113px;
 text-align: center;
 letter-spacing: 63px;
 text-transform: uppercase;
-
-
-// color: #FFFFFF;
-
-
 padding: 163px 267px;
 
     }
   }
+.history-11{
+  @include fa();
+  padding: 80px 123px 93px 172px;
+  .history-0,.history-1,.history-2{
+    width: 641px;
+    p{
+      @include font(21px,#000000, 500px, 30px); 
 
+    }
+  }
+  .qualiti{
+    width: 414px;
+    h3{
+      @include font(42px,$bg-2, 500px, 50px); 
+
+    }
+  }
+}
 
