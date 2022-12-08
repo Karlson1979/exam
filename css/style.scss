@@ -881,7 +881,7 @@ margin-top: 25px;
     }
     p{
       display: inline-block;
-      @include font(36px, $red, 500px, 30px);
+      @include font(36px, $bg-2, 500px, 30px);
 
     }
   }
