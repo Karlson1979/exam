@@ -927,6 +927,16 @@ padding: 163px 267px;
 }
 .progress-carousel{
   background: url(../image/grey.png) repeat-x bottom;
+  
+}
+.carousel-indicators{
+  margin-bottom: 0rem;
+  
+}
+
+.carousel-control-prev,.carousel-control-next{
+  opacity: 0;
+  transition: none;
 }
 .line-6{
   height: 4px;

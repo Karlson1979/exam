@@ -1017,6 +1017,10 @@ button a {
   background: url(../image/grey.png) repeat-x bottom;
 }
 
+.carousel-indicators-1 {
+  margin-top: 30px;
+}
+
 .line-6 {
   height: 4px;
   background: #E6E6F0;
