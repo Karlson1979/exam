@@ -962,5 +962,19 @@ padding: 163px 267px;
   @include fc();
   .foto-1{
     margin: 20px;
+    h2{
+      @include font(18px,#323264, 400px, 21px); 
+
+    }
+    p{
+      @include font(16px,#B3B3BA, 400px, 22px); 
+
+    }
+    
   }
+}
+.open{
+  @include fb();
+  margin-top: 20px;
+  
 }

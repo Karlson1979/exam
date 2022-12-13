@@ -1053,4 +1053,24 @@ button a {
 }
 .foto .foto-1 {
   margin: 20px;
+}
+.foto .foto-1 h2 {
+  font-size: 18px;
+  color: #323264;
+  font-weight: 400px;
+  line-height: 21px;
+}
+.foto .foto-1 p {
+  font-size: 16px;
+  color: #B3B3BA;
+  font-weight: 400px;
+  line-height: 22px;
+}
+
+.open {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
 }/*# sourceMappingURL=style.css.map */
