@@ -957,3 +957,10 @@ padding: 163px 267px;
     @include font(42px,$red, 500px, 50px); 
   }
 }
+.foto{
+  padding: 80px 61px 0 60px;
+  @include fc();
+  .foto-1{
+    margin: 20px;
+  }
+}

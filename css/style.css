@@ -1042,4 +1042,15 @@ button a {
   color: #F0145A;
   font-weight: 500px;
   line-height: 50px;
+}
+
+.foto {
+  padding: 80px 61px 0 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.foto .foto-1 {
+  margin: 20px;
 }/*# sourceMappingURL=style.css.map */
