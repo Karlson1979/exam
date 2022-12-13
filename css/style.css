@@ -917,7 +917,7 @@ button a {
 }
 .introduction h1 {
   font-size: 42px;
-  color: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  color: #F0145A;
   font-weight: 500px;
   line-height: 50px;
 }
@@ -1001,7 +1001,7 @@ button a {
 }
 .history-11 .qualiti h3 {
   font-size: 42px;
-  color: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  color: #F0145A;
   font-weight: 500px;
   line-height: 50px;
 }
@@ -1032,4 +1032,14 @@ button a {
   background: #E6E6F0;
   margin-top: 30px;
   width: 100%;
+}
+
+.header-tiem {
+  padding: 82px 289px 0 287px;
+}
+.header-tiem h1 {
+  font-size: 42px;
+  color: #F0145A;
+  font-weight: 500px;
+  line-height: 50px;
 }/*# sourceMappingURL=style.css.map */

@@ -854,7 +854,7 @@ width: 641px;
 
    h1{
     
-    @include font(42px, $bg-2, 500px, 50px);
+    @include font(42px, $red, 500px, 50px);
   } 
   p{
     @include font(21px, #000000, 500px, 30px);
@@ -916,7 +916,7 @@ padding: 163px 267px;
   .qualiti{
     width: 414px;
     h3{
-      @include font(42px,$bg-2, 500px, 50px); 
+      @include font(42px,$red, 500px, 50px); 
 
     }
   }
@@ -947,4 +947,13 @@ padding: 163px 267px;
   width: 100%;
 }
 
+// PAGE-TIEM
 
+.header-tiem{
+  // width: 864px; 
+
+  padding: 82px 289px 0 287px; 
+  h1{
+    @include font(42px,$red, 500px, 50px); 
+  }
+}
