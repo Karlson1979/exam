@@ -989,12 +989,13 @@ padding: 163px 267px;
     @include font(42px, $red, 700px, 22px); 
   
   }
-  p{
+  .keriv p{
     @include font(16px,#B3B3BA, 200px, 22px); 
 margin-top: 17px;
   }
   .txt{
     margin-left: 40px;
+    width: 641px;
   }
   .tochka{
     width: 6px;
@@ -1013,7 +1014,10 @@ margin-top: 17px;
   }
 }
 .partner{
-  @include fb();
+  display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
 
 }
 .line{
@@ -1022,3 +1026,11 @@ margin-top: 17px;
   width: 100%;
    
 }
+.txt-1{
+  margin-top: 40px;
+}
+
+    
+
+  
+

@@ -1087,7 +1087,7 @@ button a {
   font-weight: 700px;
   line-height: 22px;
 }
-.mamber p {
+.mamber .keriv p {
   font-size: 16px;
   color: #B3B3BA;
   font-weight: 200px;
@@ -1096,6 +1096,7 @@ button a {
 }
 .mamber .txt {
   margin-left: 40px;
+  width: 641px;
 }
 .mamber .tochka {
   width: 6px;
@@ -1114,7 +1115,7 @@ button a {
 
 .partner {
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -1123,4 +1124,8 @@ button a {
   height: 4px;
   background: #E6E6F0;
   width: 100%;
+}
+
+.txt-1 {
+  margin-top: 40px;
 }/*# sourceMappingURL=style.css.map */
