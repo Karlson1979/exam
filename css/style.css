@@ -1078,8 +1078,7 @@ button a {
 .mamber {
   padding: 80px 173px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: start;
   flex-wrap: wrap;
 }
 .mamber h2 {
@@ -1093,18 +1092,24 @@ button a {
   color: #B3B3BA;
   font-weight: 200px;
   line-height: 22px;
+  margin-top: 17px;
+}
+.mamber .txt {
+  margin-left: 40px;
 }
 .mamber .tochka {
   width: 6px;
   height: 6px;
   background: #E6E6F0;
   border-radius: 50%;
+  margin-left: 10px;
 }
 .mamber .email-1, .mamber a {
   font-size: 16px;
   color: #24A3FF;
   font-weight: 200px;
   line-height: 22px;
+  margin-left: 10px;
 }
 
 .partner {
@@ -1112,4 +1117,10 @@ button a {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.line {
+  height: 4px;
+  background: #E6E6F0;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */

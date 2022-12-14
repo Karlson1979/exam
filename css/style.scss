@@ -980,24 +980,33 @@ padding: 163px 267px;
 }
 .mamber{
   padding: 80px 173px;
-  @include fb();
+  // @include fa();
+  display: flex;
+    justify-content: start;
+    // align-items: center;
+    flex-wrap: wrap;
   h2{
     @include font(42px, $red, 700px, 22px); 
   
   }
   p{
     @include font(16px,#B3B3BA, 200px, 22px); 
-
+margin-top: 17px;
+  }
+  .txt{
+    margin-left: 40px;
   }
   .tochka{
     width: 6px;
     height: 6px;
     background: #E6E6F0;
     border-radius: 50%;
+    margin-left: 10px;
   }
   .email-1,a{
    
     @include font(16px,$blu, 200px, 22px); 
+    margin-left: 10px;
     
     
 
@@ -1006,4 +1015,10 @@ padding: 163px 267px;
 .partner{
   @include fb();
 
+}
+.line{
+  height: 4px;
+  background: #E6E6F0;
+  width: 100%;
+   
 }
