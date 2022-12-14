@@ -773,7 +773,7 @@ button a {
 .footer-and {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 .footer-and .facebook {
   margin-top: -10px;
@@ -964,7 +964,7 @@ button a {
 }
 
 .command {
-  background: url(../image/Photo.png) no-repeat center;
+  background: url(../image/comand.png) no-repeat center;
   background-size: cover;
   margin-top: 100px;
 }
@@ -1073,4 +1073,43 @@ button a {
   align-items: center;
   flex-wrap: wrap;
   margin-top: 20px;
+}
+
+.mamber {
+  padding: 80px 173px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.mamber h2 {
+  font-size: 42px;
+  color: #F0145A;
+  font-weight: 700px;
+  line-height: 22px;
+}
+.mamber p {
+  font-size: 16px;
+  color: #B3B3BA;
+  font-weight: 200px;
+  line-height: 22px;
+}
+.mamber .tochka {
+  width: 6px;
+  height: 6px;
+  background: #E6E6F0;
+  border-radius: 50%;
+}
+.mamber .email-1, .mamber a {
+  font-size: 16px;
+  color: #24A3FF;
+  font-weight: 200px;
+  line-height: 22px;
+}
+
+.partner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }/*# sourceMappingURL=style.css.map */

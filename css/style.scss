@@ -716,7 +716,7 @@ button {
 .footer-and {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 30px;
+  margin-top: 10px;
 
   .facebook {
     margin-top: -10px;
@@ -890,7 +890,7 @@ margin-top: 25px;
   }
   .command{
     
-    background: url(../image/Photo.png) no-repeat center;
+    background: url(../image/comand.png) no-repeat center;
     background-size: cover;
     margin-top: 100px;
     h3{
@@ -977,4 +977,33 @@ padding: 163px 267px;
   @include fb();
   margin-top: 20px;
   
+}
+.mamber{
+  padding: 80px 173px;
+  @include fb();
+  h2{
+    @include font(42px, $red, 700px, 22px); 
+  
+  }
+  p{
+    @include font(16px,#B3B3BA, 200px, 22px); 
+
+  }
+  .tochka{
+    width: 6px;
+    height: 6px;
+    background: #E6E6F0;
+    border-radius: 50%;
+  }
+  .email-1,a{
+   
+    @include font(16px,$blu, 200px, 22px); 
+    
+    
+
+  }
+}
+.partner{
+  @include fb();
+
 }
