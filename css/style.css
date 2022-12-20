@@ -1189,6 +1189,8 @@ button a {
   width: 527px;
   background: #F5F5FA;
   border-radius: 12px;
+  position: relative;
+  height: 576px;
 }
 .form h2 {
   font-size: 32px;
@@ -1197,11 +1199,18 @@ button a {
   line-height: 50px;
   text-align: center;
 }
+.form p {
+  margin-left: 30px;
+  font-size: 14px;
+  color: #B3B3BA;
+  font-weight: 700px;
+  line-height: 50px;
+}
 
-.name-form {
+.name-form, .tel-form, .email-form {
   margin: 20px;
 }
-.name-form input, .name-form txt {
+.name-form input, .name-form txt, .tel-form input, .tel-form txt, .email-form input, .email-form txt {
   width: 487px;
   height: 47px;
   border-radius: 8px;
@@ -1222,7 +1231,7 @@ button-1 {
   background: #24A3FF;
   border-radius: 15px;
   padding: 12px 60px 12px 60px;
-  bottom: 0px;
+  margin-bottom: 40px;
   margin-left: 25%;
   display: block;
   position: absolute;

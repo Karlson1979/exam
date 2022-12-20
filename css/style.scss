@@ -1075,11 +1075,19 @@ margin-left: 10px;
   width: 527px;
   background: #F5F5FA;
   border-radius: 12px;
+  position: relative;
+  height: 576px;
   h2{
 @include font(32px, $red, 700px, 50px);
 text-align: center;
-  }}
-  .name-form {
+  }
+  p{
+margin-left: 30px;
+@include font(14px, #B3B3BA, 700px, 50px);
+
+  }
+}
+  .name-form,.tel-form,.email-form {
     margin: 20px;
     input,txt{ width: 487px;
     height: 47px;
@@ -1109,7 +1117,8 @@ button-1 {
   border-radius: 15px;
   padding: 12px 60px 12px 60px;
 
-  bottom: 0px;
+  // margin-top: 20px;
+  margin-bottom: 40px;
   margin-left: 25%;
   display: block;
   position: absolute;
