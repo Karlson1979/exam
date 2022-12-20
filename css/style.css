@@ -1185,6 +1185,39 @@ button a {
   margin-bottom: 20px;
 }
 
+.form {
+  width: 527px;
+  background: #F5F5FA;
+  border-radius: 12px;
+}
+.form h2 {
+  font-size: 32px;
+  color: #F0145A;
+  font-weight: 700px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.name-form {
+  margin: 20px;
+}
+.name-form input, .name-form txt {
+  width: 487px;
+  height: 47px;
+  border-radius: 8px;
+  padding-left: 10px;
+}
+
+.meseng-form {
+  margin: 0px 20px;
+}
+.meseng-form input, .meseng-form txt {
+  width: 487px;
+  height: 180px;
+  border-radius: 8px;
+  padding: 11px 357px 143px 10px;
+}
+
 button-1 {
   background: #24A3FF;
   border-radius: 15px;
