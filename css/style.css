@@ -1128,4 +1128,78 @@ button a {
 
 .txt-1 {
   margin-top: 40px;
+}
+
+.content-contact {
+  padding: 82px 173px 0 173px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.rekvizit-contact {
+  width: 414px;
+}
+.rekvizit-contact p {
+  font-size: 21px;
+  color: #323264;
+  font-weight: 400px;
+  line-height: 30px;
+}
+.rekvizit-contact .line-6 {
+  margin-top: 20px;
+}
+.rekvizit-contact .tel-contact {
+  margin-top: 40px;
+  font-size: 21px;
+  color: #46466E;
+  font-weight: 400px;
+  line-height: 30px;
+}
+.rekvizit-contact .email {
+  margin-top: 20px;
+  font-size: 21px;
+  color: #24A3FF;
+  font-weight: 400px;
+  line-height: 30px;
+}
+.rekvizit-contact .line-7 {
+  margin-top: 40px;
+  height: 4px;
+  background: #E6E6F0;
+  width: 100%;
+}
+.rekvizit-contact .facebook {
+  margin-top: 25px;
+}
+.rekvizit-contact .facebook a {
+  font-size: 12px;
+  color: #24A3FF;
+  font-weight: 500px;
+  line-height: 16px;
+  display: inline-block;
+  margin-left: 10px;
+}
+.rekvizit-contact .facebook img {
+  margin-bottom: 20px;
+}
+
+button-1 {
+  background: #24A3FF;
+  border-radius: 15px;
+  padding: 12px 60px 12px 60px;
+  bottom: 0px;
+  margin-left: 25%;
+  display: block;
+  position: absolute;
+}
+button-1 a {
+  background: #fff;
+  font-size: 16px;
+  font-weight: 300px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }/*# sourceMappingURL=style.css.map */
