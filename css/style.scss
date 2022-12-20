@@ -1127,9 +1127,12 @@ button-1 {
   a {
     @include grtext (16px, 300px, #fff);
 
-
-
-
   }
-}  
+} 
+.maps{
+  margin-top:  80px;
+  iframe{
+  width: 100%;
+}
+} 
 
