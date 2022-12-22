@@ -1227,7 +1227,7 @@ button a {
   padding: 11px 357px 143px 10px;
 }
 
-button-1 {
+.button-2 {
   background: #24A3FF;
   border-radius: 15px;
   padding: 12px 60px 12px 60px;
@@ -1236,7 +1236,7 @@ button-1 {
   display: block;
   position: absolute;
 }
-button-1 a {
+.button-2 a {
   background: #fff;
   font-size: 16px;
   font-weight: 300px;
@@ -1251,4 +1251,62 @@ button-1 a {
 }
 .maps iframe {
   width: 100%;
+}
+
+.services-page {
+  background: url(../image/Bg-2.png) no-repeat;
+  background-size: cover;
+  padding: 50px 60px 0 60px;
+}
+
+.serv-page {
+  text-align: center;
+  margin-top: 52px;
+  width: 861px;
+  margin-left: 300px;
+}
+.serv-page h1 {
+  margin-top: 20px;
+  font-size: 42px;
+  color: #F0145A;
+  font-weight: 700px;
+  line-height: 50px;
+}
+
+.page-content p {
+  margin-top: 20px;
+  font-size: 21px;
+  color: #fff;
+  font-weight: 500px;
+  line-height: 30px;
+}
+.page-content h2 {
+  margin-top: 20px;
+  font-size: 21px;
+  color: #fff;
+  font-weight: 500px;
+  line-height: 30px;
+}
+
+.but {
+  margin-top: 40px;
+  position: relative;
+  background: #24A3FF;
+  border-radius: 15px;
+  margin-left: 280px;
+}
+.but a {
+  background: #fff;
+  font-size: 16px;
+  font-weight: 300px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.line-serv {
+  height: 4px;
+  background: #fff;
+  margin-top: 80px;
 }/*# sourceMappingURL=style.css.map */
