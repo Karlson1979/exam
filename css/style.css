@@ -1309,4 +1309,30 @@ button a {
   height: 4px;
   background: #fff;
   margin-top: 80px;
+}
+
+.list {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.list-1, .list-2 {
+  width: 500px;
+}
+.list-1 h3, .list-2 h3 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 500px;
+  line-height: 26px;
+}
+
+.disc, .disc-2 {
+  list-style-type: disc;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500px;
+  line-height: 26px;
 }/*# sourceMappingURL=style.css.map */
