@@ -1335,4 +1335,7 @@ button a {
   color: #fff;
   font-weight: 500px;
   line-height: 26px;
+}
+.disc li, .disc-2 li {
+  display: inline-block;
 }/*# sourceMappingURL=style.css.map */
