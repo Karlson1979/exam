@@ -1311,14 +1311,23 @@ button a {
   margin-top: 80px;
 }
 
-.list {
+.list-3 {
   margin-top: 20px;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
 }
 
 .list-1, .list-2 {
   width: 500px;
+}
+.list-1 li, .list-2 li {
+  list-style: disc;
+}
+
+li::marker {
+  color: #F0145A;
 }
 
 h3 {

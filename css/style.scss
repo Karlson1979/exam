@@ -1192,19 +1192,29 @@ margin-left: 280px;
   background: $wf;
   margin-top: 80px;
 }
-.list{
+.list-3{
   margin-top: 20px;
-  display: flex;
-    // flex-direction: row;
-	// flex-direction: column;
-  flex-wrap: wrap;
-
+  @include fa();
 
 }
 .list-1,.list-2 {
   width: 500px;
-}
   
+  li{
+    list-style:disc;
+    
+  }
+}
+// li:before {
+//   color: $red;
+//   content:url(../image/Dot.png);
+//   padding-right: 8px;
+  
+// }
+
+li::marker {
+  color:$red;
+  }
   
   h3{
 @include font(24px, $wf, 500px, 26px);
