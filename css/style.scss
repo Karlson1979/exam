@@ -246,18 +246,27 @@ html {
   @include fa();
   margin-top: 68px;
   align-items: stretch;
+  // img{
+  //   margin-left: 150px;
+  // }
 
 }
 
 .it {
 
   width: 450px;
+  
 
 }
 
 .it-txt {
   @include font(24px, $blu, 500px, 28px);
   margin-top: 20px;
+  a{
+    @include font(24px, $blu, 500px, 28px);
+  margin-top: 20px;
+
+  }
 }
 
 .it-txt-2 {

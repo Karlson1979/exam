@@ -263,6 +263,13 @@ html a {
   line-height: 28px;
   margin-top: 20px;
 }
+.it-txt a {
+  font-size: 24px;
+  color: #24A3FF;
+  font-weight: 500px;
+  line-height: 28px;
+  margin-top: 20px;
+}
 
 .it-txt-2 {
   font-size: 18px;
