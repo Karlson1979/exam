@@ -779,7 +779,7 @@ button {
   margin-top: 15px;
 }
 .breadcrambs-link{
-  @include grtext (38px, 400px,$wf);
+  @include grtext (20px, 400px,$wf);
   
  
 }
@@ -1194,15 +1194,16 @@ margin-left: 280px;
 }
 .list{
   margin-top: 20px;
-  // display: flex;
+  display: flex;
     // flex-direction: row;
-	flex-direction: column;
+	// flex-direction: column;
   flex-wrap: wrap;
 
 
 }
 .list-1,.list-2 {
-  width: 500px;}
+  width: 500px;
+}
   
   
   h3{
@@ -1211,7 +1212,7 @@ margin-left: 280px;
 }
 
 .disc,.disc-2{
-  list-style-type: disc;
+list-style-type: disc; 
 @include font(18px, $wf, 500px, 26px);
 
 

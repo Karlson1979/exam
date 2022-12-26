@@ -825,7 +825,7 @@ button a {
 
 .breadcrambs-link {
   background: #fff;
-  font-size: 38px;
+  font-size: 20px;
   font-weight: 400px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1313,7 +1313,7 @@ button a {
 
 .list {
   margin-top: 20px;
-  flex-direction: column;
+  display: flex;
   flex-wrap: wrap;
 }
 
