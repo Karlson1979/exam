@@ -1194,22 +1194,25 @@ margin-left: 280px;
 }
 .list{
   margin-top: 20px;
-  @include fb();
+  // display: flex;
+    // flex-direction: row;
+	flex-direction: column;
+  flex-wrap: wrap;
+
 
 }
 .list-1,.list-2 {
-  width: 500px;
+  width: 500px;}
+  
   
   h3{
 @include font(24px, $wf, 500px, 26px);
 
 }
-}
+
 .disc,.disc-2{
   list-style-type: disc;
 @include font(18px, $wf, 500px, 26px);
 
-li{display: inline-block;
-  
-}
+
 }

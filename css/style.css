@@ -1313,16 +1313,15 @@ button a {
 
 .list {
   margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
   flex-wrap: wrap;
 }
 
 .list-1, .list-2 {
   width: 500px;
 }
-.list-1 h3, .list-2 h3 {
+
+h3 {
   font-size: 24px;
   color: #fff;
   font-weight: 500px;
@@ -1335,7 +1334,4 @@ button a {
   color: #fff;
   font-weight: 500px;
   line-height: 26px;
-}
-.disc li, .disc-2 li {
-  display: inline-block;
 }/*# sourceMappingURL=style.css.map */
