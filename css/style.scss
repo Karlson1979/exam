@@ -1333,21 +1333,21 @@ list-style-type: disc;
   transition: .3s;
 }
 
-.modal__content {
-  width: 100%;
-  max-width: 500px;
-  padding: 50px;
-  background: #f9f9f9;
-  -webkit-box-shadow: 0 5px 15px black;
-          box-shadow: 0 5px 15px black;
-  border-radius: 3px;
-  position: relative;
-}
+// .modal__content {
+//   width: 100%;
+//   max-width: 500px;
+//   padding: 50px;
+//   background: #f9f9f9;
+//   -webkit-box-shadow: 0 5px 15px black;
+//           box-shadow: 0 5px 15px black;
+//   border-radius: 3px;
+//   position: relative;
+// }
 
 .modal__close-button {
   background: #ff0000;
-  height: 30px;
-  width: 30px;
+  height: 32px;
+  width: 32px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

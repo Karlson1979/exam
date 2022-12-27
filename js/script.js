@@ -12,8 +12,8 @@ $(function () {
     });
   
     $('.modal').mouseup(function (e) {
-      let modalContent = $(".modal__content");
-      if (!modalContent.is(e.target) && modalContent.has(e.target).length === 0) {
+      let form = $(".form");
+      if (!form.is(e.target) && form.has(e.target).length === 0) {
         $(this).removeClass('modal_active');
         $('body').removeClass('hidden');
       }

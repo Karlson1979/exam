@@ -1374,20 +1374,10 @@ h3 {
   transition: 0.3s;
 }
 
-.modal__content {
-  width: 100%;
-  max-width: 500px;
-  padding: 50px;
-  background: #f9f9f9;
-  box-shadow: 0 5px 15px black;
-  border-radius: 3px;
-  position: relative;
-}
-
 .modal__close-button {
   background: #ff0000;
-  height: 30px;
-  width: 30px;
+  height: 32px;
+  width: 32px;
   display: flex;
   justify-content: center;
   align-items: center;
