@@ -1366,28 +1366,28 @@ h3 {
   padding: 60px 15px;
 }
 
+.modal_active {
+  position: fixed;
+  top: 0;
+  visibility: visible;
+  opacity: 1;
+  transition: 0.3s;
+}
+
 .modal__content {
   width: 100%;
   max-width: 500px;
+  padding: 50px;
+  background: #f9f9f9;
+  box-shadow: 0 5px 15px black;
   border-radius: 3px;
   position: relative;
-  box-shadow: 0 5px 15px black;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1000;
-  background: url(../image/Rectangle.png);
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 60px 15px;
 }
 
-.modal__close {
-  height: 32px;
-  width: 32px;
+.modal__close-button {
+  background: #ff0000;
+  height: 30px;
+  width: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1395,12 +1395,13 @@ h3 {
   position: absolute;
   right: 0;
   top: 0;
+  background: none;
   cursor: pointer;
   transition: 0.3s;
   outline: none;
 }
 
-.modal__close:hover {
+.modal__close-button:hover {
   transition: 0.3s;
   transform: rotate(180deg);
 }
@@ -1413,12 +1414,4 @@ h3 {
 
 .modal__description {
   font-size: 1.125rem;
-}
-
-.modal_active {
-  position: fixed;
-  top: 0;
-  visibility: visible;
-  opacity: 1;
-  transition: 0.3s;
 }/*# sourceMappingURL=style.css.map */
