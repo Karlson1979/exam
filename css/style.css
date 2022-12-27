@@ -694,7 +694,7 @@ html a {
   background: url(../image/Shade-1.svg) no-repeat bottom, url(../image/image-4.png) no-repeat bottom;
 }
 
-button {
+.but {
   background: #24A3FF;
   border-radius: 15px;
   padding: 12px 60px 12px 60px;
@@ -704,7 +704,7 @@ button {
   position: absolute;
   margin-top: 100px;
 }
-button a {
+.but a {
   background: #fff;
   font-size: 16px;
   font-weight: 300px;
@@ -1238,7 +1238,7 @@ button a {
   background: #24A3FF;
   border-radius: 15px;
   padding: 12px 60px 12px 60px;
-  margin-bottom: 40px;
+  bottom: -40px;
   margin-left: 25%;
   display: block;
   position: absolute;
@@ -1350,4 +1350,75 @@ h3 {
   color: #fff;
   font-weight: 500px;
   line-height: 26px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  background: url(../image/Rectangle.png);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 60px 15px;
+}
+
+.modal__content {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 3px;
+  position: relative;
+  box-shadow: 0 5px 15px black;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  background: url(../image/Rectangle.png);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 60px 15px;
+}
+
+.modal__close {
+  height: 32px;
+  width: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  transition: 0.3s;
+  outline: none;
+}
+
+.modal__close:hover {
+  transition: 0.3s;
+  transform: rotate(180deg);
+}
+
+.modal__title {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  margin: 0 0 15px;
+}
+
+.modal__description {
+  font-size: 1.125rem;
+}
+
+.modal_active {
+  position: fixed;
+  top: 0;
+  visibility: visible;
+  opacity: 1;
+  transition: 0.3s;
 }/*# sourceMappingURL=style.css.map */
