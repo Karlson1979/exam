@@ -1,0 +1,14 @@
+@media screen and (max-width: 922px)
+{
+.menu-about{
+    margin-top: 0px;
+  justify-content: start ;
+}
+.letter{
+    display: flex;
+}
+.line-about{
+    display: none;
+    justify-items: center;
+}
+}
