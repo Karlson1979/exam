@@ -91,7 +91,7 @@ html a {
   margin: 0px 10px 5px 10px;
 }
 
-.menu-nav .menu-burger {
+.menu-nav {
   display: none;
 }
 .menu-nav .menu-burger div {
