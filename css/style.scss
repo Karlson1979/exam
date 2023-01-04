@@ -109,8 +109,19 @@ html {
 
 
 
-.menu-burger {
+.menu-nav {
+  .menu-burger{
   display: none;
+
+    div{
+    width: 30px;
+    height: 2px;
+    background: #000;
+    &:nth-child(2){
+      margin: 10px 0px;
+    }
+  }
+}
 
 
 }

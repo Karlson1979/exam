@@ -91,8 +91,16 @@ html a {
   margin: 0px 10px 5px 10px;
 }
 
-.menu-burger {
+.menu-nav .menu-burger {
   display: none;
+}
+.menu-nav .menu-burger div {
+  width: 30px;
+  height: 2px;
+  background: #000;
+}
+.menu-nav .menu-burger div:nth-child(2) {
+  margin: 10px 0px;
 }
 
 .menu {
