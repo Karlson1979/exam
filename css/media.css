@@ -18,7 +18,6 @@
     .menu-burger{
         display: block;
         position: relative;
-        transition: 1s ease-in-out;
     }
     .active-burger div{
     position: absolute;
@@ -40,7 +39,6 @@
 left: 0;
 background:#F0145A;
 border-radius: 2%;
-transition: 1s ease-in-out;
 /* width: 50%; */
 /* height: 100vh; */
     }
@@ -51,6 +49,7 @@ transition: 1s ease-in-out;
     .menu-item{
         display: block;
     margin-bottom: 25px 0;
+transition: 1s ease-in-out;
     
 
 }

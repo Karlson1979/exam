@@ -93,6 +93,7 @@ html a {
 
 .menu-burger {
   display: none;
+  transition: 1s ease-in-out;
 }
 .menu-burger div {
   width: 30px;

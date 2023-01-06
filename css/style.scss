@@ -114,6 +114,8 @@ html {
   .menu-burger{
   
     display: none;
+    transition: 1s ease-in-out;
+
     div{
     width: 30px;
     height: 2px;
