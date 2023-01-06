@@ -125,7 +125,7 @@ html {
 }
 
 
-}
+
 
 .menu {
   display: flex;
@@ -136,6 +136,7 @@ html {
     @include font(18px, $wf, 500px, 21px);
   }
 }
+
 
 .menu-item {
   display: inline-block;
@@ -803,7 +804,7 @@ html {
  
 }
 
-.menu {
+.menu-list {
   margin-top: -25px;
 }
 

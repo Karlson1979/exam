@@ -91,15 +91,15 @@ html a {
   margin: 0px 10px 5px 10px;
 }
 
-.menu-nav {
+.menu-burger {
   display: none;
 }
-.menu-nav .menu-burger div {
+.menu-burger div {
   width: 30px;
   height: 2px;
   background: #000;
 }
-.menu-nav .menu-burger div:nth-child(2) {
+.menu-burger div:nth-child(2) {
   margin: 10px 0px;
 }
 
@@ -848,7 +848,7 @@ html a {
   text-fill-color: transparent;
 }
 
-.menu {
+.menu-list {
   margin-top: -25px;
 }
 
