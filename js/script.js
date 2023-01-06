@@ -1,4 +1,6 @@
 let burger = document.querySelector('.menu-burger')
-burger.addEventListener('clic',(e)=> {
-burger.classmenu.toggle('active-burger')
+let menu = document.querySelector('.menu')
+burger.addEventListener('click',(e)=> {
+burger.classList.toggle('active-burger')
 })
+menu.classList.toggle('active-list')

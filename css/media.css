@@ -21,15 +21,20 @@
     }
     .active-burger div{
     position: absolute;
+transition: 1s ease-in-out;
+
     }
     .active-burger div:nth-child(2){
         display: none;
     }
     .active-burger div:nth-child(1){
         transform: rotate(45deg);
+        right: 0;
     }
     .active-burger div:nth-child(3){
         transform: rotate(-45deg);
+        right: 0;
+
     }
     .menu {
     left: -100%%;
