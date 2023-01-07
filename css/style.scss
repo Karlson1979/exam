@@ -52,7 +52,7 @@ html {
   @include fb();
 
   .menu-rekvszit {
-    @include fa();
+    @include fb();
   }
 
   .uk,
@@ -132,7 +132,7 @@ html {
 .menu {
   display: flex;
   justify-content: end;
-  margin-top: -30px;
+  margin-top: -10px;
 
   a {
     @include font(18px, $wf, 500px, 21px);
@@ -808,8 +808,11 @@ html {
 
 .menu-list {
   margin-top: -25px;
+  
 }
-
+.active-list{
+  right: -50%;
+}
 .section-serv {
   margin-top: 78px;
   // padding: 78px 60px 20px 60px;

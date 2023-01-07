@@ -39,7 +39,7 @@ html a {
 }
 .haeder-menu .menu-rekvszit {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -107,7 +107,7 @@ html a {
 .menu {
   display: flex;
   justify-content: end;
-  margin-top: -30px;
+  margin-top: -10px;
 }
 .menu a {
   font-size: 18px;
@@ -851,6 +851,10 @@ html a {
 
 .menu-list {
   margin-top: -25px;
+}
+
+.active-list {
+  right: -50%;
 }
 
 .section-serv {
