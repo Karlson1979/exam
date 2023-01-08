@@ -699,6 +699,26 @@ html a {
   background: url(../image/Shade-1.svg) no-repeat bottom, url(../image/image-3.png) no-repeat bottom;
 }
 
+button {
+  background: #24A3FF;
+  border-radius: 15px;
+  padding: 12px 60px 12px 60px;
+  position: absolute;
+  bottom: 0;
+  margin-left: 25%;
+}
+
+button a {
+  background: #fff;
+  font-size: 16px;
+  font-weight: 300px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  display: block;
+}
+
 .pablic-6 {
   background: url(../image/Shade-1.svg) no-repeat bottom, url(../image/image-4.png) no-repeat bottom;
 }
