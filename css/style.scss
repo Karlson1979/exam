@@ -663,7 +663,7 @@ button a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+  text-emphasis-color: transparent;
   display: block;}
 
 
@@ -757,7 +757,7 @@ button a {
   display: flex;
   flex-wrap: wrap;
   margin-top: 10px;
-
+justify-content: start;
   .facebook {
     margin-top: -10px;
   }
