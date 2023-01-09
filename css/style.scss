@@ -995,7 +995,10 @@ padding: 163px 267px;
 
 .header-tiem{
   // width: 864px; 
-
+  
+    display: flex;
+    flex-wrap: wrap;
+    
   padding: 82px 289px 0 287px; 
   h1{
     @include font(42px,$red, 500px, 50px); 

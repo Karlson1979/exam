@@ -69,7 +69,7 @@
     
 }
 .menu-burger div{
-    background: #F5F5FA;
+    background: #ed5b5b;
 }
 .partners{
     margin: 0;
@@ -315,9 +315,18 @@ button {
     margin-left: 200px;
     margin-top: 15px;
 }
+   
+   
+
+
 .card,.card-serv {
-  display: none;  
+  display: none; 
 }
+.header-tiem h1{
+    font-size: 32px;
+    padding:82px 20px 0 70px;
+}
+
 }
 
 

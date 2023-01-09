@@ -1076,6 +1076,8 @@ button a {
 }
 
 .header-tiem {
+  display: flex;
+  flex-wrap: wrap;
   padding: 82px 289px 0 287px;
 }
 .header-tiem h1 {
