@@ -928,22 +928,22 @@ button a {
   line-height: 19px;
 }
 
-.menu-about {
+.menu {
   margin-top: -25px;
   display: flex;
   justify-content: end;
   margin-top: -30px;
 }
-.menu-about a {
+.menu a {
   font-size: 18px;
   color: #24A3FF;
   font-weight: 500px;
   line-height: 21px;
 }
-.menu-about .menu-item.active {
+.menu .menu-item.active {
   border-bottom: 2px solid #F0145A;
 }
-.menu-about .menu-item.active a {
+.menu .menu-item.active a {
   color: #F0145A;
 }
 
