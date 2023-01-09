@@ -6,6 +6,32 @@
         margin-top: 60px;
     }
     
+    .breadcrambs{
+        
+        margin-top: 100px; }
+        img{
+            height: 31px;
+            width: 77px;  
+        }
+        .breadcrambs-item:after{
+            height: 27px;
+        }
+        .breadcrambs-link-about {
+            font-size: 12px;
+color: #323264;
+margin-bottom: 10px;
+        }
+        .link-15{
+            margin-top: 0;
+        }
+        .breadcrambs-item:last-child::after{
+            height: 35px;
+            margin-top: 8px;
+            margin
+        }
+    
+    
+    
     .menu-rekvszit{
        display: flex;
        justify-content: space-between;
@@ -16,7 +42,7 @@
         font-size: 12px;
         color: #B3B3BA;}
         
-    .tel{
+    .tel,.tel-about{
         font-size: 16px; 
         color: #B3B3BA;
 
@@ -44,7 +70,7 @@ transition: 0.3s ease-in-out;
         right: 0;
 
     }
-    .menu,.menu-about {
+    .menu {
         display: none;
     
 
