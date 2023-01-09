@@ -65,6 +65,14 @@
     display: block;
     position: relative;
     margin-top: 60px;
+
+    
+}
+.menu-burger div{
+    background: #F5F5FA;
+}
+.partners{
+    margin: 0;
 }
 
 .active-burger div {
@@ -75,16 +83,21 @@
 
 .active-burger div:nth-child(2) {
     display: none;
+
+
 }
 
 .active-burger div:nth-child(1) {
     transform: rotate(45deg);
     right: 0;
+
+
 }
 
 .active-burger div:nth-child(3) {
     transform: rotate(-45deg);
     right: 0;
+    
 
 }
 
@@ -296,4 +309,15 @@ button {
 .img-block-3,.img-block-4{
     display: none;
 }
+
+/* services  */
+.menu-nav{
+    margin-left: 200px;
+    margin-top: 15px;
 }
+.card,.card-serv {
+  display: none;  
+}
+}
+
+

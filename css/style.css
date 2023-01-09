@@ -303,8 +303,7 @@ html a {
   margin-top: 68px;
 }
 
-.card,
-.card-serv {
+.card, .card-serv {
   width: 100%;
   text-align: center;
   border: none;
