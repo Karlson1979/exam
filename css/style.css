@@ -319,7 +319,7 @@ html a {
   background: #F5F5FA;
 }
 
-.faser {
+.faser, .faser-1 {
   display: flex;
   justify-content: space-between;
   margin-right: 40px;

@@ -285,5 +285,15 @@ button {
 .letter{
     margin-top: 15px;
 }
-
+.command{
+  width: 100%;
+ }
+ .command h3{
+    padding: 0;
+    font-size: 20px;
+    /* margin-left: 30px; */
+}
+.img-block-3,.img-block-4{
+    display: none;
+}
 }
