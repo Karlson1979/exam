@@ -299,7 +299,7 @@ button {
     margin-top: 15px;
 }
 .command{
-    background-size:100%;
+    background-size: no-repeat 100% 0;
   
  }
  .command h3{
@@ -359,9 +359,7 @@ button {
 .open img{
 width: 30px;
 }
-.header-tiem h1{
 
-}
 .introduction-about{
     padding: 100px 10px 0px 10px;
 }.txt-about h1{
@@ -369,9 +367,38 @@ width: 30px;
 }
 .history-11 {
     padding: 80px 123px 93px 10px;}
+
+
+  /* services-page   */
+.services-page {
+
+  background-size: no-repeat 100% 0;
+
+}
+.but{
+    
+    padding: 12px 10px 12px 10px;
+  
+    bottom: 0px;
+    margin-left: 25%;
+    display: block;
+    position: static;
+    /* margin-top: 100px;} */
+    text-align: center;
+    
+  
+   
+}
+.serv-page{
+    width: 310px;
+    margin-left: 0;
+    /* text-align: center; */
+}
+.page-content {
+    text-align: left;
 }
 
-
+}
 
 
 
@@ -391,5 +418,24 @@ width: 30px;
     justify-content: space-between;
 
 }
+/* SERVICES */
+.services{
+    padding: 50px 60px 0 5px;
 }
+.munu-nav{
+    margin-top:120px;
+    margin-right:50px ;
+    
+}
+.breadcrambs-item a{
+    font-size: 10px;
+}
+
+
+}
+
+
+
+
+
 

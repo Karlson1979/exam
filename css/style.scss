@@ -1194,14 +1194,20 @@ padding-left: 10px;
 .serv-page{
   text-align: center;
   margin-top: 52px;
+  display: flex;
+  flex-wrap: wrap;
   h1{
     margin-top: 20px;
 @include font(42px, $red, 700px, 50px);
 
   }
-  width: 861px;
-  margin-left: 300px;
+  // width: 861px;
+  // margin-left: 300px;
   // position: relative;
+}
+.img-txt{
+  margin-left: auto;
+  margin-right: auto;
 }
 .page-content{
   p{
