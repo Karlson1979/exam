@@ -312,11 +312,13 @@ button {
 
 /* services  */
 .menu-nav{
-    margin-left: 200px;
-    margin-top: 15px;
+    margin-left: 280px;
+    margin-top: -15px;
 }
    
-   
+.haeder-menu .menu-rekvszit {
+    justify-content: stretch;
+}
 
 
 .card,.card-serv {
@@ -329,7 +331,27 @@ button {
     padding:82px 20px 0 70px;
 
 }
+/* mamber */
 
+.mamber{
+    padding: 80px 10px;
 }
+.txt h2 {
+    
+    font-size: 20px;}
+   
+.photo-a img{
+    width: 220px;
+    /* margin-right: 50px; */
+    margin-left: 40px;
+}
+.about{
+    padding: 50px 10px 0 10px;
+}
+.tochka{
+    display: none;
+}
+}
+
 
 
