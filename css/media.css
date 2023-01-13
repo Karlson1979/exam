@@ -312,7 +312,7 @@ button {
 
 /* services  */
 .menu-nav{
-    margin-left: 280px;
+    margin-left: 260px;
     margin-top: -15px;
 }
    
@@ -325,7 +325,7 @@ button {
   display: none; 
 }
 .header-tiem h1{
-    font-size: 32px;
+    font-size: 30px;
 }
 .header-tiem{
     padding:82px 20px 0 70px;
@@ -350,6 +350,15 @@ button {
 }
 .tochka{
     display: none;
+}
+ .foto-1 img{
+    width: 280px;
+}
+.open img{
+width: 30px;
+}
+.header-tiem h1{
+
 }
 }
 
