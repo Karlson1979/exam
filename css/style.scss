@@ -649,7 +649,7 @@ html {
     url(../image/image-3.png) no-repeat bottom;
 }
 
-button {
+.but-1 {
   background: #24A3FF;
   border-radius: 15px;
   padding: 12px 60px 12px 60px;
@@ -657,7 +657,7 @@ button {
   bottom: 0;
   margin-left: 25%;
 }
-button a {
+.but-1 a {
   background: #fff;
   font-size: 16px;
   font-weight: 300px;
@@ -680,25 +680,26 @@ button a {
 }
 
 
-.but{
-  background: $blu;
+.butt-0{
+  background: #24A3FF;
   border-radius: 15px;
+  position: absolute;
+  bottom: 0;
+  margin-left: 38%;
+  display: block;
+}
+.butt-0 a {
+  background: #fff;
+  font-size: 16px;
+  font-weight: 300px;
   padding: 12px 60px 12px 60px;
 
-  bottom: 0px;
-  margin-left: 25%;
-  display: block;
-  position: absolute;
-  margin-top: 100px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-emphasis-color: transparent;
+  display: block;}
 
-  a {
-    @include grtext (16px, 300px, #fff);
-
-
-
-
-  }
-}
 
 .footer {
   padding: 10px 60px 0 60px;
@@ -1220,32 +1221,11 @@ padding-left: 10px;
 @include font(21px, $wf, 500px, 30px);
   }
 }
-.but{
-  margin-top: 40px;
-  position: relative;
 
-
-  background: $blu;
-  border-radius: 15px;
-  padding: 12px 60px 12px 60px;
-
-  margin-bottom: 40px;
-  margin-left: 25%;
-  display: inline-block;
-  // position: absolute;
-  text-align: center;
-margin-left: 595px;
-margin-left: 280px;
-  a {
-    @include grtext (16px, 300px, #fff);
-    // padding: 17px 40px 17px 40px;
-
-  }
-} 
 .line-serv{
   height: 4px;
   background: $wf;
-  margin-top: 80px;
+  margin-top: 120px;
 }
 .list-3{
   margin-top: 20px;
