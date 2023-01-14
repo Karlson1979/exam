@@ -1341,6 +1341,12 @@ button a {
   position: relative;
   background: #24A3FF;
   border-radius: 15px;
+  padding: 12px 60px 12px 60px;
+  margin-bottom: 40px;
+  margin-left: 25%;
+  display: inline-block;
+  text-align: center;
+  margin-left: 595px;
   margin-left: 280px;
 }
 .but a {

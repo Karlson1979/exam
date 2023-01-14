@@ -1227,14 +1227,14 @@ padding-left: 10px;
 
   background: $blu;
   border-radius: 15px;
-  // padding: 12px 60px 12px 60px;
+  padding: 12px 60px 12px 60px;
 
-  // margin-bottom: 40px;
-  // margin-left: 25%;
-  // display: inline-block;
+  margin-bottom: 40px;
+  margin-left: 25%;
+  display: inline-block;
   // position: absolute;
-  // text-align: center;
-// margin-left: 595px;
+  text-align: center;
+margin-left: 595px;
 margin-left: 280px;
   a {
     @include grtext (16px, 300px, #fff);

@@ -375,32 +375,32 @@ width: 30px;
   background-size: no-repeat 100% 0;
 
 }
-.but{
+.but {
     
     padding: 12px 10px 12px 10px;
   
-    bottom: 0px;
-    margin-left: 25%;
-    display: block;
-    position: static;
-    /* margin-top: 100px;} */
-    text-align: center;
+    /* bottom: 0px; */
+    margin-left: 10%;
+    /* display: block; */
+    /* position: static; */
+    /* margin-top: 100px; */
+    /* text-align: center; */
     
-  
-   
 }
 .serv-page{
-    width: 310px;
+    width: 300px;
     margin-left: 0;
     /* text-align: center; */
 }
 .page-content {
     text-align: left;
 }
+/* .page-content p{
+    font-size: 14px;
+
+} */
 
 }
-
-
 
 
 
@@ -430,12 +430,12 @@ width: 30px;
 .breadcrambs-item a{
     font-size: 10px;
 }
+/* .but {
 
+    margin-left: 5%;
+
+} */
 
 }
-
-
-
-
 
 
