@@ -552,6 +552,7 @@ html {
 .history {
   padding: 40px 60px;
   background: $gray-bg;
+  margin-top: 40px;
 
   h2 {
     @include grtext (42px, 500px, $bg-txt2);
