@@ -230,7 +230,7 @@
 .but-1 {
 
     position: static;
-
+margin-left: 10%;
 
 }
 
@@ -373,19 +373,14 @@ width: 30px;
 .services-page {
 
   background-size: no-repeat 100% 0;
-
+padding: 20px 20px 118px 20px;
 }
-.cnop {
-    
-    padding: 12px 10px 12px 10px;
-  
-    /* bottom: 0px; */
+.knop {
     margin-left: 10%;
-    /* display: block; */
-    /* position: static; */
-    /* margin-top: 100px; */
-    /* text-align: center; */
-    
+   
+}
+.knop a{
+    font-size: 10px;
 }
 .serv-page{
     width: 300px;
@@ -399,7 +394,12 @@ width: 30px;
     font-size: 14px;
 
 } */
-
+.history h2{
+    font-size: 32px;
+}
+.cell-red{
+    padding: 20px 260px 20px 20px;
+}
 }
 
 

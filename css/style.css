@@ -728,8 +728,9 @@ html a {
   border-radius: 15px;
   position: static;
   bottom: 0;
-  margin-left: 35%;
+  margin-left: 40%;
   display: block;
+  margin-top: 40px;
 }
 
 .knop a {
@@ -1341,7 +1342,7 @@ html a {
 .line-serv {
   height: 4px;
   background: #fff;
-  margin-top: 120px;
+  margin-top: 80px;
 }
 
 .list-3 {
