@@ -680,15 +680,15 @@ html {
 }
 
 
-.butt-0{
+ .knop{
   background: #24A3FF;
   border-radius: 15px;
-  position: absolute;
+ 
   bottom: 0;
-  margin-left: 38%;
+  margin-left: 35%;
   display: block;
 }
-.butt-0 a {
+ .knop a {
   background: #fff;
   font-size: 16px;
   font-weight: 300px;
@@ -1197,6 +1197,7 @@ padding-left: 10px;
   margin-top: 52px;
   display: flex;
   flex-wrap: wrap;
+  
   h1{
     margin-top: 20px;
 @include font(42px, $red, 700px, 50px);
@@ -1214,7 +1215,7 @@ padding-left: 10px;
   p{
     margin-top: 20px;
 @include font(21px, $wf, 500px, 30px);
-
+// position: absolute;
   }
   h2{
     margin-top: 20px;
@@ -1277,78 +1278,7 @@ list-style-type: disc;
   padding: 60px 15px;
 }
  
-// .modal__content {
-//   width: 100%;
-//   max-width: 500px;
-//   // padding: 50px;
-//   // background: #f9f9f9;
-//   border-radius: 3px;
-//   position: relative;
-//   box-shadow: 0 5px 15px black;
-  
-// }
-// .modal__close {
-//   // background: #ff0000;
-//   height: 32px;
-//   width: 32px;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   border: none;
-//   position: absolute;
-//   right: 0;
-//   top: 0;
-//   // background: none;
-//   cursor: pointer;
-//   transition: .3s;
-//   outline: none;
-// }
-// .modal__close:hover {
-//   transition: .3s;
-//   transform: rotate(180deg);
-// }
-// .modal__title {
-//   font-size: 1.8rem;
-//   text-transform: uppercase;
-//   margin: 0 0 15px;
-// }
- 
-// .modal__description {
-//   font-size: 1.125rem;
-// }
 
- 
-// .modal_active {
-//   position: fixed;
-//   top: 0;
-//   visibility: visible;
-//   opacity: 1;
-//   transition: .3s;
-// }
-// .modal {
-//   position: absolute;
-//   visibility: hidden;
-//   opacity: 0;
-//   -webkit-transition: .3s;
-//   transition: .3s;
-//   top: -1000px;
-//   right: 0;
-//   bottom: 0;
-//   left: 0;
-//   z-index: 1000;
-//   background: rgba(0, 0, 0, 0.9);
-//   display: -webkit-box;
-//   display: -ms-flexbox;
-//   display: flex;
-//   -webkit-box-pack: center;
-//       -ms-flex-pack: center;
-//           justify-content: center;
-//   -webkit-box-align: start;
-//       -ms-flex-align: start;
-//           align-items: flex-start;
-//   overflow-y: scroll;
-//   padding: 60px 15px;
-// }
 
 .modal_active {
   position: fixed;
@@ -1359,16 +1289,7 @@ list-style-type: disc;
   transition: .3s;
 }
 
-// .modal__content {
-//   width: 100%;
-//   max-width: 500px;
-//   padding: 50px;
-//   background: #f9f9f9;
-//   -webkit-box-shadow: 0 5px 15px black;
-//           box-shadow: 0 5px 15px black;
-//   border-radius: 3px;
-//   position: relative;
-// }
+
 
 .modal__close-button {
   background: #ff0000;
