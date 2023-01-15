@@ -683,7 +683,7 @@ html {
  .knop{
   background: #24A3FF;
   border-radius: 15px;
- 
+ position: static;
   bottom: 0;
   margin-left: 35%;
   display: block;
@@ -698,7 +698,8 @@ html {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-emphasis-color: transparent;
-  display: block;}
+  display: block;
+}
 
 
 .footer {
