@@ -428,9 +428,9 @@ font-size: 22px;
  .email-form input, .email-form txt{
    width: 300px; 
 }
-.meseng-form{
-    width: 300px; 
-/* padding: 0; */
+.meseng-form input txt{
+  width: 300px;
+    
 }
 .button-2{
     margin-left: 14%;
