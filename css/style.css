@@ -120,6 +120,9 @@ html a {
   display: inline-block;
   margin: 7.5px;
 }
+.menu-item a {
+  color: #fff;
+}
 
 .menu-item.active {
   border-bottom: 2px solid #fff;

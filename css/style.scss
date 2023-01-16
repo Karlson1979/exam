@@ -135,13 +135,16 @@ html {
   margin-top: -10px;
 
   a {
-    @include font(18px, $wf, 500px, 21px);
+    @include font(18px, #fff, 500px, 21px);
   }
 }
 
 
 .menu-item {
   display: inline-block;
+  a{
+  color: #fff;  
+  }
 
   margin: 7.5px;}
 
