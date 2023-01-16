@@ -421,19 +421,24 @@ padding: 20px 20px 118px 20px;
 font-size: 22px;
 }
 .form{
-    width: 330px;
+    width: 380px;
+    position: relative;
 }
 .name-form input, .name-form txt, 
 .tel-form input, .tel-form txt,
  .email-form input, .email-form txt{
    width: 300px; 
 }
-.meseng-form input txt{
+/* .meseng-form input txt{
   width: 300px;
     
-}
+} */
 .button-2{
     margin-left: 14%;
+}
+.meseng-form input, .meseng-form txt{
+  width: 300px;
+padding: 0;
 }
 
 }
