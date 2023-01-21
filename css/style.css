@@ -1397,6 +1397,20 @@ h3 {
   padding: 60px 15px;
 }
 
+.modal__content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.modal__close-button {
+  background: #F5F5FA;
+}
+
+.img_btn {
+  display: block;
+}
+
 .modal__title {
   font-size: 1.8rem;
   text-transform: uppercase;

@@ -1131,6 +1131,7 @@ margin-left: 10px;
   border-radius: 12px;
   position: relative;
   height: 576px;
+  
   h2{
 @include font(32px, $red, 700px, 50px);
 text-align: center;
@@ -1284,11 +1285,11 @@ list-style-type: disc;
   padding: 60px 15px;
 }
  
-// .modal__content{
-//   display: flex;
-//   justify-content: space-between;
-//   flex-wrap: wrap;
-//   background: url(../image/Rectangle.png);
+.modal__content{
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  }
 
 // }
 
@@ -1327,14 +1328,16 @@ list-style-type: disc;
 //   outline: none;
 // }
 
-//  #modal__close-button:hover {
-//   -webkit-transition: .3s;
-//   transition: .3s;
-//   -webkit-transform: rotate(180deg);
-//           transform: rotate(180deg);
-// }
+ .modal__close-button {
+  
+          background: #F5F5FA;
+}
 
-
+.img_btn{
+  
+  // margin-top: -20px;
+  display: block;
+}
 .modal__title {
   font-size: 1.8rem;
   text-transform: uppercase;
