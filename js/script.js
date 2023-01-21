@@ -10,7 +10,7 @@ menu.classList.toggle('active-list')
 })
 
 const modal = document.querySelector('.modal');
-const modalButton =document.getElementById('modal__close-button');
+const modalButton =document.querySelector('.modal__close-button');
 const showModal=document.getElementById('show-modal')
 
 modalButton.onclick=function(){
